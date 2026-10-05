@@ -1,0 +1,74 @@
+[
+  {
+    "prefix": "AR",
+    "department": "IP_PATENT",
+    "client_id": null,
+    "description": "Firm general patent series",
+    "example": "AR5001",
+    "active": true
+  },
+  {
+    "prefix": "TBI",
+    "department": "IP_PATENT",
+    "client_id": "cli_1001",
+    "description": "Tungabhadra Institute patent series",
+    "example": "TBI01",
+    "active": true
+  },
+  {
+    "prefix": "KVU",
+    "department": "IP_PATENT",
+    "client_id": "cli_1002",
+    "description": "Kaveri Vidya University patent series",
+    "example": "KVU01",
+    "active": true
+  },
+  {
+    "prefix": "TM",
+    "department": "IP_SOFT",
+    "client_id": null,
+    "description": "Trademark series",
+    "example": "TM5001",
+    "active": true
+  },
+  {
+    "prefix": "CR",
+    "department": "IP_SOFT",
+    "client_id": null,
+    "description": "Copyright series",
+    "example": "CR5001",
+    "active": true
+  },
+  {
+    "prefix": "DS",
+    "department": "IP_SOFT",
+    "client_id": null,
+    "description": "Design series",
+    "example": "DS5001",
+    "active": true
+  },
+  {
+    "prefix": "LIT",
+    "department": "LITIGATION",
+    "client_id": null,
+    "description": "Litigation series",
+    "example": "LIT5001",
+    "active": true
+  },
+  {
+    "prefix": "AGR",
+    "department": "AGREEMENT",
+    "client_id": null,
+    "description": "Agreements series",
+    "example": "AGR5001",
+    "active": true
+  },
+  {
+    "prefix": "MISC",
+    "department": "MISC_VENDOR",
+    "client_id": null,
+    "description": "Vendor-handled miscellaneous work",
+    "example": "MISC5001",
+    "active": true
+  }
+]

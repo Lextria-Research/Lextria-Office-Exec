@@ -1,0 +1,353 @@
+[
+  {
+    "id": "cil_0001",
+    "code": "TBI01",
+    "project_code_id": "pc_TBI01",
+    "issued_to": "u_dr1",
+    "issued_by": "u_ph",
+    "issued_at": "2025-10-10T11:00:00+05:30",
+    "purpose": "Low-power soil moisture sensing node with self-calibration"
+  },
+  {
+    "id": "cil_0002",
+    "code": "TBI02",
+    "project_code_id": "pc_TBI02",
+    "issued_to": "u_dr2",
+    "issued_by": "u_ph",
+    "issued_at": "2026-08-20T11:00:00+05:30",
+    "purpose": "Bamboo-fibre composite brake pad"
+  },
+  {
+    "id": "cil_0003",
+    "code": "TBI03",
+    "project_code_id": "pc_TBI03",
+    "issued_to": "u_dr3",
+    "issued_by": "u_ph",
+    "issued_at": "2024-09-02T11:00:00+05:30",
+    "purpose": "Grid-tied inverter islanding detection method"
+  },
+  {
+    "id": "cil_0004",
+    "code": "TBI04",
+    "project_code_id": "pc_TBI04",
+    "issued_to": "u_dr2",
+    "issued_by": "u_ph",
+    "issued_at": "2026-07-01T11:00:00+05:30",
+    "purpose": "Portable water turbidity analyser using smartphone camera"
+  },
+  {
+    "id": "cil_0005",
+    "code": "KVU01",
+    "project_code_id": "pc_KVU01",
+    "issued_to": "u_dr1",
+    "issued_by": "u_ph",
+    "issued_at": "2025-12-01T11:00:00+05:30",
+    "purpose": "Federated learning scheduler for edge classrooms"
+  },
+  {
+    "id": "cil_0006",
+    "code": "KVU02",
+    "project_code_id": "pc_KVU02",
+    "issued_to": "u_dr3",
+    "issued_by": "u_ph",
+    "issued_at": "2025-10-08T11:00:00+05:30",
+    "purpose": "Herbal-free enzymatic dye extraction process"
+  },
+  {
+    "id": "cil_0007",
+    "code": "KVU03",
+    "project_code_id": "pc_KVU03",
+    "issued_to": "u_dr1",
+    "issued_by": "u_ph",
+    "issued_at": "2025-06-12T11:00:00+05:30",
+    "purpose": "Multilingual speech-to-sign avatar system"
+  },
+  {
+    "id": "cil_0008",
+    "code": "AR5001",
+    "project_code_id": "pc_AR5001",
+    "issued_to": "u_dr2",
+    "issued_by": "u_ph",
+    "issued_at": "2023-11-15T11:00:00+05:30",
+    "purpose": "Drip irrigation emitter with clog-sensing membrane"
+  },
+  {
+    "id": "cil_0009",
+    "code": "AR5002",
+    "project_code_id": "pc_AR5002",
+    "issued_to": "u_dr3",
+    "issued_by": "u_ph",
+    "issued_at": "2026-03-04T11:00:00+05:30",
+    "purpose": "Ergonomic laparoscopic instrument handle"
+  },
+  {
+    "id": "cil_0010",
+    "code": "AR5003",
+    "project_code_id": "pc_AR5003",
+    "issued_to": "u_dr1",
+    "issued_by": "u_ph",
+    "issued_at": "2019-02-20T11:00:00+05:30",
+    "purpose": "Thermostable lipase variant for biodiesel"
+  },
+  {
+    "id": "cil_0011",
+    "code": "AR5004",
+    "project_code_id": "pc_AR5004",
+    "issued_to": "u_dr1",
+    "issued_by": "u_ph",
+    "issued_at": "2017-10-25T11:00:00+05:30",
+    "purpose": "Microbial consortium for effluent decolourisation"
+  },
+  {
+    "id": "cil_0012",
+    "code": "AR5005",
+    "project_code_id": "pc_AR5005",
+    "issued_to": "u_dr3",
+    "issued_by": "u_ph",
+    "issued_at": "2016-07-10T11:00:00+05:30",
+    "purpose": "Enzyme immobilisation on chitosan beads"
+  },
+  {
+    "id": "cil_0013",
+    "code": "AR5006",
+    "project_code_id": "pc_AR5006",
+    "issued_to": "u_dr1",
+    "issued_by": "u_ph",
+    "issued_at": "2026-09-20T11:00:00+05:30",
+    "purpose": "Autonomous hull-cleaning crawler"
+  },
+  {
+    "id": "cil_0014",
+    "code": "AR5010",
+    "project_code_id": "pc_AR5010",
+    "issued_to": "u_dr3",
+    "issued_by": "u_ph",
+    "issued_at": "2026-03-06T11:00:00+05:30",
+    "purpose": "Laparoscopic instrument handle (ergonomic)"
+  },
+  {
+    "id": "cil_0015",
+    "code": "TM5001",
+    "project_code_id": "pc_TM5001",
+    "issued_to": "u_sip",
+    "issued_by": "u_sa2",
+    "issued_at": "2025-11-03T11:00:00+05:30",
+    "purpose": "Trademark NIMBUSROOT — Class 31"
+  },
+  {
+    "id": "cil_0016",
+    "code": "TM5002",
+    "project_code_id": "pc_TM5002",
+    "issued_to": "u_sl",
+    "issued_by": "u_sa2",
+    "issued_at": "2025-05-14T11:00:00+05:30",
+    "purpose": "Trademark SAGARGANDHA — Class 30"
+  },
+  {
+    "id": "cil_0017",
+    "code": "TM5003",
+    "project_code_id": "pc_TM5003",
+    "issued_to": "u_sl",
+    "issued_by": "u_sa2",
+    "issued_at": "2019-01-10T11:00:00+05:30",
+    "purpose": "Trademark COASTAL SPICE (device) — Class 30"
+  },
+  {
+    "id": "cil_0018",
+    "code": "TM5004",
+    "project_code_id": "pc_TM5004",
+    "issued_to": "u_sip",
+    "issued_by": "u_sa2",
+    "issued_at": "2026-09-22T11:00:00+05:30",
+    "purpose": "Trademark ORBITRON — Classes 7, 9"
+  },
+  {
+    "id": "cil_0019",
+    "code": "CR5001",
+    "project_code_id": "pc_CR5001",
+    "issued_to": "u_sip",
+    "issued_by": "u_sa2",
+    "issued_at": "2026-09-02T11:00:00+05:30",
+    "purpose": "Copyright — KVU course software module 1"
+  },
+  {
+    "id": "cil_0020",
+    "code": "CR5002",
+    "project_code_id": "pc_CR5002",
+    "issued_to": "u_sip",
+    "issued_by": "u_sa2",
+    "issued_at": "2026-09-03T11:00:00+05:30",
+    "purpose": "Copyright — KVU course software module 2"
+  },
+  {
+    "id": "cil_0021",
+    "code": "CR5003",
+    "project_code_id": "pc_CR5003",
+    "issued_to": "u_sip",
+    "issued_by": "u_sa2",
+    "issued_at": "2026-09-04T11:00:00+05:30",
+    "purpose": "Copyright — KVU course software module 3"
+  },
+  {
+    "id": "cil_0022",
+    "code": "CR5004",
+    "project_code_id": "pc_CR5004",
+    "issued_to": "u_sip",
+    "issued_by": "u_sa2",
+    "issued_at": "2026-09-05T11:00:00+05:30",
+    "purpose": "Copyright — KVU course software module 4"
+  },
+  {
+    "id": "cil_0023",
+    "code": "CR5005",
+    "project_code_id": "pc_CR5005",
+    "issued_to": "u_sip",
+    "issued_by": "u_sa2",
+    "issued_at": "2026-09-06T11:00:00+05:30",
+    "purpose": "Copyright — KVU course software module 5"
+  },
+  {
+    "id": "cil_0024",
+    "code": "CR5006",
+    "project_code_id": "pc_CR5006",
+    "issued_to": "u_sip",
+    "issued_by": "u_sa2",
+    "issued_at": "2026-09-07T11:00:00+05:30",
+    "purpose": "Copyright — KVU course software module 6"
+  },
+  {
+    "id": "cil_0025",
+    "code": "CR5007",
+    "project_code_id": "pc_CR5007",
+    "issued_to": "u_sip",
+    "issued_by": "u_sa2",
+    "issued_at": "2026-09-08T11:00:00+05:30",
+    "purpose": "Copyright — KVU course software module 7"
+  },
+  {
+    "id": "cil_0026",
+    "code": "CR5008",
+    "project_code_id": "pc_CR5008",
+    "issued_to": "u_sip",
+    "issued_by": "u_sa2",
+    "issued_at": "2026-09-09T11:00:00+05:30",
+    "purpose": "Copyright — KVU course software module 8"
+  },
+  {
+    "id": "cil_0027",
+    "code": "CR5009",
+    "project_code_id": "pc_CR5009",
+    "issued_to": "u_sip",
+    "issued_by": "u_sa2",
+    "issued_at": "2026-09-10T11:00:00+05:30",
+    "purpose": "Copyright — KVU course software module 9"
+  },
+  {
+    "id": "cil_0028",
+    "code": "CR5010",
+    "project_code_id": "pc_CR5010",
+    "issued_to": "u_sip",
+    "issued_by": "u_sa2",
+    "issued_at": "2026-09-11T11:00:00+05:30",
+    "purpose": "Copyright — KVU course software module 10"
+  },
+  {
+    "id": "cil_0029",
+    "code": "CR5011",
+    "project_code_id": "pc_CR5011",
+    "issued_to": "u_sip",
+    "issued_by": "u_sa2",
+    "issued_at": "2026-04-02T11:00:00+05:30",
+    "purpose": "Copyright — 'Surgical Ergonomics' illustrated handbook"
+  },
+  {
+    "id": "cil_0030",
+    "code": "DS5001",
+    "project_code_id": "pc_DS5001",
+    "issued_to": "u_sip",
+    "issued_by": "u_sa2",
+    "issued_at": "2026-06-18T11:00:00+05:30",
+    "purpose": "Design — spice jar with pour spout"
+  },
+  {
+    "id": "cil_0031",
+    "code": "DS5002",
+    "project_code_id": "pc_DS5002",
+    "issued_to": "u_sl",
+    "issued_by": "u_sa2",
+    "issued_at": "2024-10-01T11:00:00+05:30",
+    "purpose": "Design — emitter housing"
+  },
+  {
+    "id": "cil_0032",
+    "code": "LIT5001",
+    "project_code_id": "pc_LIT5001",
+    "issued_to": "u_lit",
+    "issued_by": "u_sa2",
+    "issued_at": "2026-05-12T11:00:00+05:30",
+    "purpose": "Nimbus Agritech v. Greenfield Agro Tools — patent infringement"
+  },
+  {
+    "id": "cil_0033",
+    "code": "LIT5002",
+    "project_code_id": "pc_LIT5002",
+    "issued_to": "u_lit",
+    "issued_by": "u_sa2",
+    "issued_at": "2026-08-04T11:00:00+05:30",
+    "purpose": "Coastal Spice Traders v. Sagar Masala Co. — TM infringement & passing off"
+  },
+  {
+    "id": "cil_0034",
+    "code": "AGR5001",
+    "project_code_id": "pc_AGR5001",
+    "issued_to": "u_agr",
+    "issued_by": "u_sa2",
+    "issued_at": "2026-08-25T11:00:00+05:30",
+    "purpose": "Patent licence — Hemadri to Vardhan Bioprocess"
+  },
+  {
+    "id": "cil_0035",
+    "code": "AGR5002",
+    "project_code_id": "pc_AGR5002",
+    "issued_to": "u_int2",
+    "issued_by": "u_sa2",
+    "issued_at": "2026-06-02T11:00:00+05:30",
+    "purpose": "Mutual NDA — Nimbus & field-trial partner"
+  },
+  {
+    "id": "cil_0036",
+    "code": "AGR5003",
+    "project_code_id": "pc_AGR5003",
+    "issued_to": "u_agr",
+    "issued_by": "u_sa2",
+    "issued_at": "2026-09-21T11:00:00+05:30",
+    "purpose": "IP assignment — founders to Orbitron Robotics LLP"
+  },
+  {
+    "id": "cil_0037",
+    "code": "MISC5001",
+    "project_code_id": "pc_MISC5001",
+    "issued_to": "u_fe1",
+    "issued_by": "u_sa2",
+    "issued_at": "2026-09-10T11:00:00+05:30",
+    "purpose": "GST registration amendment (new branch)"
+  },
+  {
+    "id": "cil_0038",
+    "code": "MISC5002",
+    "project_code_id": "pc_MISC5002",
+    "issued_to": "u_fe2",
+    "issued_by": "u_sa2",
+    "issued_at": "2026-09-15T11:00:00+05:30",
+    "purpose": "ROC annual filing FY 2025-26 (AOC-4, MGT-7)"
+  },
+  {
+    "id": "cil_0039",
+    "code": "MISC5003",
+    "project_code_id": "pc_MISC5003",
+    "issued_to": "u_fe2",
+    "issued_by": "u_sa2",
+    "issued_at": "2026-09-01T11:00:00+05:30",
+    "purpose": "Designated partner KYC filing"
+  }
+]

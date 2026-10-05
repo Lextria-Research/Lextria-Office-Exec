@@ -1,0 +1,17 @@
+[
+  {
+    "id": "cust_dsc1",
+    "item": "DSC token — Managing Partner",
+    "type": "DSC"
+  },
+  {
+    "id": "cust_dsc2",
+    "item": "DSC token — Operations Partner",
+    "type": "DSC"
+  },
+  {
+    "id": "cust_phone",
+    "item": "Office phone (OTP)",
+    "type": "PHONE"
+  }
+]

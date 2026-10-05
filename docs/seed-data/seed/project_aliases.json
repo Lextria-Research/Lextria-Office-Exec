@@ -1,0 +1,198 @@
+[
+  {
+    "id": "al_0001",
+    "project_code_id": "pc_TBI01",
+    "alias_type": "PATENT_APP_NO",
+    "alias_value": "202641000101",
+    "valid_from": "2025-11-20"
+  },
+  {
+    "id": "al_0002",
+    "project_code_id": "pc_TBI02",
+    "alias_type": "TEMP_CODE",
+    "alias_value": "TBI02",
+    "valid_from": "2026-08-20"
+  },
+  {
+    "id": "al_0003",
+    "project_code_id": "pc_TBI03",
+    "alias_type": "PATENT_APP_NO",
+    "alias_value": "202441000303",
+    "valid_from": "2024-10-15"
+  },
+  {
+    "id": "al_0004",
+    "project_code_id": "pc_TBI04",
+    "alias_type": "TEMP_CODE",
+    "alias_value": "TBI04",
+    "valid_from": "2026-07-01"
+  },
+  {
+    "id": "al_0005",
+    "project_code_id": "pc_KVU01",
+    "alias_type": "PATENT_APP_NO",
+    "alias_value": "202641000201",
+    "valid_from": "2025-12-15"
+  },
+  {
+    "id": "al_0006",
+    "project_code_id": "pc_KVU02",
+    "alias_type": "PATENT_APP_NO",
+    "alias_value": "202541000202",
+    "valid_from": "2025-10-05"
+  },
+  {
+    "id": "al_0007",
+    "project_code_id": "pc_KVU03",
+    "alias_type": "PATENT_APP_NO",
+    "alias_value": "202541000203",
+    "valid_from": "2025-07-01"
+  },
+  {
+    "id": "al_0008",
+    "project_code_id": "pc_AR5001",
+    "alias_type": "PATENT_APP_NO",
+    "alias_value": "202341000501",
+    "valid_from": "2023-12-01"
+  },
+  {
+    "id": "al_0009",
+    "project_code_id": "pc_AR5002",
+    "alias_type": "PATENT_APP_NO",
+    "alias_value": "202641000502",
+    "valid_from": "2026-03-30"
+  },
+  {
+    "id": "al_0010",
+    "project_code_id": "pc_AR5003",
+    "alias_type": "PATENT_APP_NO",
+    "alias_value": "201941000503",
+    "valid_from": "2019-03-15"
+  },
+  {
+    "id": "al_0011",
+    "project_code_id": "pc_AR5004",
+    "alias_type": "PATENT_APP_NO",
+    "alias_value": "201741000504",
+    "valid_from": "2017-11-02"
+  },
+  {
+    "id": "al_0012",
+    "project_code_id": "pc_AR5005",
+    "alias_type": "PATENT_APP_NO",
+    "alias_value": "201641000505",
+    "valid_from": "2016-08-01"
+  },
+  {
+    "id": "al_0013",
+    "project_code_id": "pc_TM5001",
+    "alias_type": "TM_APP_NO",
+    "alias_value": "7012345",
+    "valid_from": "2025-11-10"
+  },
+  {
+    "id": "al_0014",
+    "project_code_id": "pc_TM5002",
+    "alias_type": "TM_APP_NO",
+    "alias_value": "6950001",
+    "valid_from": "2025-05-20"
+  },
+  {
+    "id": "al_0015",
+    "project_code_id": "pc_TM5003",
+    "alias_type": "TM_APP_NO",
+    "alias_value": "4010001",
+    "valid_from": "2019-01-15"
+  },
+  {
+    "id": "al_0016",
+    "project_code_id": "pc_CR5001",
+    "alias_type": "CR_DIARY_NO",
+    "alias_value": "DY-2026-18001",
+    "valid_from": "2026-05-10"
+  },
+  {
+    "id": "al_0017",
+    "project_code_id": "pc_CR5002",
+    "alias_type": "CR_DIARY_NO",
+    "alias_value": "DY-2026-18002",
+    "valid_from": "2026-05-10"
+  },
+  {
+    "id": "al_0018",
+    "project_code_id": "pc_CR5003",
+    "alias_type": "CR_DIARY_NO",
+    "alias_value": "DY-2026-18003",
+    "valid_from": "2026-09-03"
+  },
+  {
+    "id": "al_0019",
+    "project_code_id": "pc_CR5004",
+    "alias_type": "CR_DIARY_NO",
+    "alias_value": "DY-2026-18004",
+    "valid_from": "2026-09-03"
+  },
+  {
+    "id": "al_0020",
+    "project_code_id": "pc_CR5005",
+    "alias_type": "CR_DIARY_NO",
+    "alias_value": "DY-2026-18005",
+    "valid_from": "2026-09-03"
+  },
+  {
+    "id": "al_0021",
+    "project_code_id": "pc_CR5006",
+    "alias_type": "CR_DIARY_NO",
+    "alias_value": "DY-2026-18006",
+    "valid_from": "2026-10-03"
+  },
+  {
+    "id": "al_0022",
+    "project_code_id": "pc_CR5007",
+    "alias_type": "CR_DIARY_NO",
+    "alias_value": "DY-2026-18007",
+    "valid_from": "2026-10-03"
+  },
+  {
+    "id": "al_0023",
+    "project_code_id": "pc_CR5008",
+    "alias_type": "CR_DIARY_NO",
+    "alias_value": "DY-2026-18008",
+    "valid_from": "2026-10-03"
+  },
+  {
+    "id": "al_0024",
+    "project_code_id": "pc_CR5009",
+    "alias_type": "CR_DIARY_NO",
+    "alias_value": "DY-2026-18009",
+    "valid_from": "2026-10-03"
+  },
+  {
+    "id": "al_0025",
+    "project_code_id": "pc_CR5010",
+    "alias_type": "CR_DIARY_NO",
+    "alias_value": "DY-2026-18010",
+    "valid_from": "2026-10-03"
+  },
+  {
+    "id": "al_0026",
+    "project_code_id": "pc_CR5011",
+    "alias_type": "CR_DIARY_NO",
+    "alias_value": "DY-2026-09001",
+    "valid_from": "2026-04-20"
+  },
+  {
+    "id": "al_0027",
+    "project_code_id": "pc_DS5001",
+    "alias_type": "DESIGN_APP_NO",
+    "alias_value": "455001-001",
+    "valid_from": "2026-07-02"
+  },
+  {
+    "id": "al_0028",
+    "project_code_id": "pc_DS5002",
+    "alias_type": "DESIGN_APP_NO",
+    "alias_value": "420002-001",
+    "valid_from": "2024-10-20"
+  }
+]

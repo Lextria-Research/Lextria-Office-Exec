@@ -1,0 +1,42 @@
+[
+  {
+    "id": "cal_0001",
+    "client_portal_account_id": "cpa_1001",
+    "event": "LOGIN_PASSWORD_OTP_EMAIL",
+    "project_code_id": null,
+    "document_id": null,
+    "at": "2026-10-03T11:00:00+05:30"
+  },
+  {
+    "id": "cal_0002",
+    "client_portal_account_id": "cpa_1001",
+    "event": "VIEW_MATTER",
+    "project_code_id": "pc_TBI01",
+    "document_id": null,
+    "at": "2026-10-03T11:02:00+05:30"
+  },
+  {
+    "id": "cal_0003",
+    "client_portal_account_id": "cpa_1001",
+    "event": "DOWNLOAD",
+    "project_code_id": "pc_TBI01",
+    "document_id": "doc_0002",
+    "at": "2026-10-03T11:03:00+05:30"
+  },
+  {
+    "id": "cal_0004",
+    "client_portal_account_id": "cpa_1003",
+    "event": "LOGIN_PASSWORD_OTP_SMS",
+    "project_code_id": null,
+    "document_id": null,
+    "at": "2026-10-03T11:30:00+05:30"
+  },
+  {
+    "id": "cal_0005",
+    "client_portal_account_id": "cpa_1003",
+    "event": "VIEW_MATTER",
+    "project_code_id": "pc_LIT5001",
+    "document_id": null,
+    "at": "2026-10-03T11:31:00+05:30"
+  }
+]

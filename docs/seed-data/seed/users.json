@@ -1,0 +1,242 @@
+[
+  {
+    "id": "u_sa1",
+    "display_name": "Managing Partner",
+    "email": "sa1@lextria-demo.test",
+    "role": "SUPER_ADMIN",
+    "department": "MANAGEMENT",
+    "reports_to": null,
+    "active": true,
+    "weekly_capacity_points": 0
+  },
+  {
+    "id": "u_sa2",
+    "display_name": "Operations Partner",
+    "email": "sa2@lextria-demo.test",
+    "role": "SUPER_ADMIN",
+    "department": "MANAGEMENT",
+    "reports_to": null,
+    "active": true,
+    "weekly_capacity_points": 0
+  },
+  {
+    "id": "u_pl1",
+    "display_name": "Patent Co-lead A",
+    "email": "pl1@lextria-demo.test",
+    "role": "DEPT_ADMIN",
+    "department": "IP_PATENT",
+    "reports_to": "u_sa1",
+    "active": true,
+    "weekly_capacity_points": 20
+  },
+  {
+    "id": "u_pl2",
+    "display_name": "Patent Co-lead B",
+    "email": "pl2@lextria-demo.test",
+    "role": "DEPT_ADMIN",
+    "department": "IP_PATENT",
+    "reports_to": "u_sa1",
+    "active": true,
+    "weekly_capacity_points": 20
+  },
+  {
+    "id": "u_dr1",
+    "display_name": "Drafter A",
+    "email": "dr1@lextria-demo.test",
+    "role": "DRAFTER",
+    "department": "IP_PATENT",
+    "reports_to": "u_pl1",
+    "active": true,
+    "weekly_capacity_points": 15
+  },
+  {
+    "id": "u_dr2",
+    "display_name": "Drafter B",
+    "email": "dr2@lextria-demo.test",
+    "role": "DRAFTER",
+    "department": "IP_PATENT",
+    "reports_to": "u_pl1",
+    "active": true,
+    "weekly_capacity_points": 15
+  },
+  {
+    "id": "u_dr3",
+    "display_name": "Drafter C",
+    "email": "dr3@lextria-demo.test",
+    "role": "DRAFTER",
+    "department": "IP_PATENT",
+    "reports_to": "u_pl2",
+    "active": true,
+    "weekly_capacity_points": 15
+  },
+  {
+    "id": "u_dr4",
+    "display_name": "Drafter D (left firm)",
+    "email": "dr4@lextria-demo.test",
+    "role": "DRAFTER",
+    "department": "IP_PATENT",
+    "reports_to": "u_pl2",
+    "active": false,
+    "weekly_capacity_points": 0
+  },
+  {
+    "id": "u_ext",
+    "display_name": "External Senior Reviewer",
+    "email": "ext@lextria-demo.test",
+    "role": "EXTERNAL_REVIEWER",
+    "department": "IP_PATENT",
+    "reports_to": "u_sa1",
+    "active": true,
+    "weekly_capacity_points": 10
+  },
+  {
+    "id": "u_ph",
+    "display_name": "Paralegal Head",
+    "email": "ph@lextria-demo.test",
+    "role": "DEPT_ADMIN",
+    "department": "PARALEGAL",
+    "reports_to": "u_sa2",
+    "active": true,
+    "weekly_capacity_points": 15
+  },
+  {
+    "id": "u_pa1",
+    "display_name": "Paralegal A",
+    "email": "pa1@lextria-demo.test",
+    "role": "PARALEGAL",
+    "department": "PARALEGAL",
+    "reports_to": "u_ph",
+    "active": true,
+    "weekly_capacity_points": 12
+  },
+  {
+    "id": "u_pa2",
+    "display_name": "Paralegal B",
+    "email": "pa2@lextria-demo.test",
+    "role": "PARALEGAL",
+    "department": "PARALEGAL",
+    "reports_to": "u_ph",
+    "active": true,
+    "weekly_capacity_points": 12
+  },
+  {
+    "id": "u_ops",
+    "display_name": "Ops & Systems Admin",
+    "email": "ops@lextria-demo.test",
+    "role": "PARALEGAL",
+    "department": "PARALEGAL",
+    "reports_to": "u_sa2",
+    "active": true,
+    "weekly_capacity_points": 10
+  },
+  {
+    "id": "u_int1",
+    "display_name": "Filing Intern",
+    "email": "int1@lextria-demo.test",
+    "role": "INTERN",
+    "department": "PARALEGAL",
+    "reports_to": "u_ph",
+    "active": true,
+    "weekly_capacity_points": 8
+  },
+  {
+    "id": "u_dm",
+    "display_name": "IP Data Manager",
+    "email": "dm@lextria-demo.test",
+    "role": "PARALEGAL",
+    "department": "IP_PATENT",
+    "reports_to": "u_ph",
+    "active": true,
+    "weekly_capacity_points": 12
+  },
+  {
+    "id": "u_fl",
+    "display_name": "Finance Lead",
+    "email": "fl@lextria-demo.test",
+    "role": "FINANCE",
+    "department": "FINANCE",
+    "reports_to": "u_sa2",
+    "active": true,
+    "weekly_capacity_points": 0
+  },
+  {
+    "id": "u_fe1",
+    "display_name": "Finance Exec 1",
+    "email": "fe1@lextria-demo.test",
+    "role": "FINANCE",
+    "department": "FINANCE",
+    "reports_to": "u_fl",
+    "active": true,
+    "weekly_capacity_points": 0
+  },
+  {
+    "id": "u_fe2",
+    "display_name": "Finance Exec 2",
+    "email": "fe2@lextria-demo.test",
+    "role": "FINANCE",
+    "department": "FINANCE",
+    "reports_to": "u_fl",
+    "active": true,
+    "weekly_capacity_points": 0
+  },
+  {
+    "id": "u_sl",
+    "display_name": "Soft IP Lead",
+    "email": "sl@lextria-demo.test",
+    "role": "DEPT_ADMIN",
+    "department": "IP_SOFT",
+    "reports_to": "u_sa1",
+    "active": true,
+    "weekly_capacity_points": 15
+  },
+  {
+    "id": "u_sip",
+    "display_name": "Soft IP Associate",
+    "email": "sip@lextria-demo.test",
+    "role": "PARALEGAL",
+    "department": "IP_SOFT",
+    "reports_to": "u_sl",
+    "active": true,
+    "weekly_capacity_points": 12
+  },
+  {
+    "id": "u_lit",
+    "display_name": "Litigation Associate",
+    "email": "lit@lextria-demo.test",
+    "role": "DEPT_ADMIN",
+    "department": "LITIGATION",
+    "reports_to": "u_sa1",
+    "active": true,
+    "weekly_capacity_points": 12
+  },
+  {
+    "id": "u_agr",
+    "display_name": "Agreements Associate",
+    "email": "agr@lextria-demo.test",
+    "role": "DEPT_ADMIN",
+    "department": "AGREEMENT",
+    "reports_to": "u_sa1",
+    "active": true,
+    "weekly_capacity_points": 12
+  },
+  {
+    "id": "u_int2",
+    "display_name": "Legal Intern",
+    "email": "int2@lextria-demo.test",
+    "role": "INTERN",
+    "department": "LITIGATION",
+    "reports_to": "u_lit",
+    "active": true,
+    "weekly_capacity_points": 8
+  },
+  {
+    "id": "u_oe",
+    "display_name": "Office Executive",
+    "email": "oe@lextria-demo.test",
+    "role": "OFFICE_EXEC",
+    "department": "OFFICE",
+    "reports_to": "u_sa2",
+    "active": true,
+    "weekly_capacity_points": 0
+  }
+]

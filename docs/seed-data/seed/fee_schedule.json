@@ -1,0 +1,392 @@
+[
+  {
+    "id": "fee_0001",
+    "office": "PATENT",
+    "form_or_action": "FORM_1",
+    "applicant_fee_category": "NATURAL_PERSON",
+    "efiling_amount": 1600,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0002",
+    "office": "PATENT",
+    "form_or_action": "FORM_1",
+    "applicant_fee_category": "STARTUP",
+    "efiling_amount": 1600,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0003",
+    "office": "PATENT",
+    "form_or_action": "FORM_1",
+    "applicant_fee_category": "SMALL_ENTITY",
+    "efiling_amount": 1600,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0004",
+    "office": "PATENT",
+    "form_or_action": "FORM_1",
+    "applicant_fee_category": "EDUCATIONAL_INSTITUTION",
+    "efiling_amount": 1600,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0005",
+    "office": "PATENT",
+    "form_or_action": "FORM_1",
+    "applicant_fee_category": "OTHERS",
+    "efiling_amount": 8000,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0006",
+    "office": "PATENT",
+    "form_or_action": "FORM_18",
+    "applicant_fee_category": "NATURAL_PERSON",
+    "efiling_amount": 4000,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0007",
+    "office": "PATENT",
+    "form_or_action": "FORM_18",
+    "applicant_fee_category": "STARTUP",
+    "efiling_amount": 4000,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0008",
+    "office": "PATENT",
+    "form_or_action": "FORM_18",
+    "applicant_fee_category": "SMALL_ENTITY",
+    "efiling_amount": 4000,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0009",
+    "office": "PATENT",
+    "form_or_action": "FORM_18",
+    "applicant_fee_category": "EDUCATIONAL_INSTITUTION",
+    "efiling_amount": 4000,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0010",
+    "office": "PATENT",
+    "form_or_action": "FORM_18",
+    "applicant_fee_category": "OTHERS",
+    "efiling_amount": 20000,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0011",
+    "office": "PATENT",
+    "form_or_action": "FORM_1_CS",
+    "applicant_fee_category": "NATURAL_PERSON",
+    "efiling_amount": 1600,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0012",
+    "office": "PATENT",
+    "form_or_action": "FORM_1_CS",
+    "applicant_fee_category": "STARTUP",
+    "efiling_amount": 1600,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0013",
+    "office": "PATENT",
+    "form_or_action": "FORM_1_CS",
+    "applicant_fee_category": "SMALL_ENTITY",
+    "efiling_amount": 1600,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0014",
+    "office": "PATENT",
+    "form_or_action": "FORM_1_CS",
+    "applicant_fee_category": "EDUCATIONAL_INSTITUTION",
+    "efiling_amount": 1600,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0015",
+    "office": "PATENT",
+    "form_or_action": "FORM_1_CS",
+    "applicant_fee_category": "OTHERS",
+    "efiling_amount": 8000,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0016",
+    "office": "PATENT",
+    "form_or_action": "FORM_9",
+    "applicant_fee_category": "NATURAL_PERSON",
+    "efiling_amount": 2500,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0017",
+    "office": "PATENT",
+    "form_or_action": "FORM_9",
+    "applicant_fee_category": "STARTUP",
+    "efiling_amount": 2500,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0018",
+    "office": "PATENT",
+    "form_or_action": "FORM_9",
+    "applicant_fee_category": "SMALL_ENTITY",
+    "efiling_amount": 2500,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0019",
+    "office": "PATENT",
+    "form_or_action": "FORM_9",
+    "applicant_fee_category": "EDUCATIONAL_INSTITUTION",
+    "efiling_amount": 2500,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0020",
+    "office": "PATENT",
+    "form_or_action": "FORM_9",
+    "applicant_fee_category": "OTHERS",
+    "efiling_amount": 12500,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0021",
+    "office": "PATENT",
+    "form_or_action": "FORM_13",
+    "applicant_fee_category": "NATURAL_PERSON",
+    "efiling_amount": 0,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live (0 = placeholder, fill actual)"
+  },
+  {
+    "id": "fee_0022",
+    "office": "PATENT",
+    "form_or_action": "FORM_13",
+    "applicant_fee_category": "STARTUP",
+    "efiling_amount": 0,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live (0 = placeholder, fill actual)"
+  },
+  {
+    "id": "fee_0023",
+    "office": "PATENT",
+    "form_or_action": "FORM_13",
+    "applicant_fee_category": "SMALL_ENTITY",
+    "efiling_amount": 0,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live (0 = placeholder, fill actual)"
+  },
+  {
+    "id": "fee_0024",
+    "office": "PATENT",
+    "form_or_action": "FORM_13",
+    "applicant_fee_category": "EDUCATIONAL_INSTITUTION",
+    "efiling_amount": 0,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live (0 = placeholder, fill actual)"
+  },
+  {
+    "id": "fee_0025",
+    "office": "PATENT",
+    "form_or_action": "FORM_13",
+    "applicant_fee_category": "OTHERS",
+    "efiling_amount": 0,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live (0 = placeholder, fill actual)"
+  },
+  {
+    "id": "fee_0026",
+    "office": "PATENT",
+    "form_or_action": "RENEWAL_YEAR_10",
+    "applicant_fee_category": "NATURAL_PERSON",
+    "efiling_amount": 0,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live (0 = placeholder, fill actual)"
+  },
+  {
+    "id": "fee_0027",
+    "office": "PATENT",
+    "form_or_action": "RENEWAL_YEAR_10",
+    "applicant_fee_category": "STARTUP",
+    "efiling_amount": 0,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live (0 = placeholder, fill actual)"
+  },
+  {
+    "id": "fee_0028",
+    "office": "PATENT",
+    "form_or_action": "RENEWAL_YEAR_10",
+    "applicant_fee_category": "SMALL_ENTITY",
+    "efiling_amount": 0,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live (0 = placeholder, fill actual)"
+  },
+  {
+    "id": "fee_0029",
+    "office": "PATENT",
+    "form_or_action": "RENEWAL_YEAR_10",
+    "applicant_fee_category": "EDUCATIONAL_INSTITUTION",
+    "efiling_amount": 0,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live (0 = placeholder, fill actual)"
+  },
+  {
+    "id": "fee_0030",
+    "office": "PATENT",
+    "form_or_action": "RENEWAL_YEAR_10",
+    "applicant_fee_category": "OTHERS",
+    "efiling_amount": 0,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live (0 = placeholder, fill actual)"
+  },
+  {
+    "id": "fee_0031",
+    "office": "TRADEMARK",
+    "form_or_action": "TM_A_PER_CLASS",
+    "applicant_fee_category": "NATURAL_PERSON",
+    "efiling_amount": 4500,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0032",
+    "office": "TRADEMARK",
+    "form_or_action": "TM_A_PER_CLASS",
+    "applicant_fee_category": "STARTUP",
+    "efiling_amount": 4500,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0033",
+    "office": "TRADEMARK",
+    "form_or_action": "TM_A_PER_CLASS",
+    "applicant_fee_category": "SMALL_ENTITY",
+    "efiling_amount": 4500,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0034",
+    "office": "TRADEMARK",
+    "form_or_action": "TM_A_PER_CLASS",
+    "applicant_fee_category": "OTHERS",
+    "efiling_amount": 9000,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0035",
+    "office": "COPYRIGHT",
+    "form_or_action": "LITERARY_WORK",
+    "applicant_fee_category": "ANY",
+    "efiling_amount": 500,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0036",
+    "office": "DESIGN",
+    "form_or_action": "DESIGN_APPLICATION",
+    "applicant_fee_category": "NATURAL_PERSON",
+    "efiling_amount": 1000,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0037",
+    "office": "DESIGN",
+    "form_or_action": "DESIGN_APPLICATION",
+    "applicant_fee_category": "STARTUP",
+    "efiling_amount": 1000,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0038",
+    "office": "DESIGN",
+    "form_or_action": "DESIGN_APPLICATION",
+    "applicant_fee_category": "SMALL_ENTITY",
+    "efiling_amount": 2000,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  },
+  {
+    "id": "fee_0039",
+    "office": "DESIGN",
+    "form_or_action": "DESIGN_APPLICATION",
+    "applicant_fee_category": "OTHERS",
+    "efiling_amount": 4000,
+    "effective_from": "2024-03-15",
+    "verify": true,
+    "note": "ILLUSTRATIVE — VERIFY against current official fee schedule before go-live"
+  }
+]

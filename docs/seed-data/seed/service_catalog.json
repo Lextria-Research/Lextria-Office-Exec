@@ -1,0 +1,77 @@
+[
+  {
+    "id": "SVC_PAT_PS_CS",
+    "name": "Patent — Provisional to Complete",
+    "default_prof_fee": 60000
+  },
+  {
+    "id": "SVC_PAT_PS",
+    "name": "Patent — Provisional only",
+    "default_prof_fee": 25000
+  },
+  {
+    "id": "SVC_PAT_CS",
+    "name": "Patent — Complete (direct)",
+    "default_prof_fee": 50000
+  },
+  {
+    "id": "SVC_PAT_FER",
+    "name": "Patent — FER response",
+    "default_prof_fee": 18000
+  },
+  {
+    "id": "SVC_PAT_HEARING",
+    "name": "Patent — Hearing & written submission",
+    "default_prof_fee": 20000
+  },
+  {
+    "id": "SVC_PAT_RENEWAL",
+    "name": "Patent — Renewal handling (per year)",
+    "default_prof_fee": 3000
+  },
+  {
+    "id": "SVC_PAT_F27",
+    "name": "Patent — Form 27 working statement",
+    "default_prof_fee": 5000
+  },
+  {
+    "id": "SVC_TM_FILE",
+    "name": "Trademark — filing per class",
+    "default_prof_fee": 6000
+  },
+  {
+    "id": "SVC_TM_REPLY",
+    "name": "Trademark — examination reply",
+    "default_prof_fee": 5000
+  },
+  {
+    "id": "SVC_TM_OPP",
+    "name": "Trademark — opposition counter-statement",
+    "default_prof_fee": 15000
+  },
+  {
+    "id": "SVC_CR_FILE",
+    "name": "Copyright — filing per work",
+    "default_prof_fee": 3500
+  },
+  {
+    "id": "SVC_DS_FILE",
+    "name": "Design — filing",
+    "default_prof_fee": 8000
+  },
+  {
+    "id": "SVC_LIT_SUIT",
+    "name": "Litigation — suit (per phase)",
+    "default_prof_fee": 0
+  },
+  {
+    "id": "SVC_AGR_DRAFT",
+    "name": "Agreement drafting",
+    "default_prof_fee": 0
+  },
+  {
+    "id": "SVC_MISC",
+    "name": "Vendor-handled compliance",
+    "default_prof_fee": 0
+  }
+]

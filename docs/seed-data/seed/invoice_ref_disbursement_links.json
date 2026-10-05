@@ -1,0 +1,26 @@
+[
+  {
+    "invoice_ref_id": "inv_0001",
+    "disbursement_id": "dsb_0001"
+  },
+  {
+    "invoice_ref_id": "inv_0005",
+    "disbursement_id": "dsb_0008"
+  },
+  {
+    "invoice_ref_id": "inv_0005",
+    "disbursement_id": "dsb_0009"
+  },
+  {
+    "invoice_ref_id": "inv_0005",
+    "disbursement_id": "dsb_0010"
+  },
+  {
+    "invoice_ref_id": "inv_0005",
+    "disbursement_id": "dsb_0011"
+  },
+  {
+    "invoice_ref_id": "inv_0005",
+    "disbursement_id": "dsb_0012"
+  }
+]

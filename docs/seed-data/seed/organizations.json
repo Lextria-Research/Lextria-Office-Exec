@@ -1,0 +1,56 @@
+[
+  {
+    "id": "org_01",
+    "name": "Tungabhadra Institute of Technology",
+    "type": "EDUCATIONAL_INSTITUTION",
+    "address": "Survey No. 12, Riverside Campus, Hosapete, Karnataka",
+    "pin": "583201",
+    "gstin": "29AAATT0001A1Z1",
+    "applicant_fee_category": "EDUCATIONAL_INSTITUTION"
+  },
+  {
+    "id": "org_02",
+    "name": "Kaveri Vidya University",
+    "type": "EDUCATIONAL_INSTITUTION",
+    "address": "University Road, Srirangapatna, Karnataka",
+    "pin": "571438",
+    "gstin": "29AAATK0002B1Z2",
+    "applicant_fee_category": "EDUCATIONAL_INSTITUTION"
+  },
+  {
+    "id": "org_03",
+    "name": "Nimbus Agritech Private Limited",
+    "type": "STARTUP",
+    "address": "2nd Floor, 14 Lakeview Layout, Bengaluru, Karnataka",
+    "pin": "560102",
+    "gstin": "29AAFCN0003C1Z3",
+    "applicant_fee_category": "STARTUP"
+  },
+  {
+    "id": "org_05",
+    "name": "Coastal Spice Traders LLP",
+    "type": "SMALL_ENTITY",
+    "address": "Door 7-21, Bunder Road, Mangaluru, Karnataka",
+    "pin": "575001",
+    "gstin": "29AAKFC0005E1Z5",
+    "applicant_fee_category": "SMALL_ENTITY"
+  },
+  {
+    "id": "org_06",
+    "name": "Hemadri Biotech Private Limited",
+    "type": "LARGE_ENTITY",
+    "address": "Plot 44, Biotech Park Phase 2, Dharwad, Karnataka",
+    "pin": "580011",
+    "gstin": "29AABCH0006F1Z6",
+    "applicant_fee_category": "OTHERS"
+  },
+  {
+    "id": "org_07",
+    "name": "Orbitron Robotics LLP",
+    "type": "STARTUP",
+    "address": "Unit 3, Old Port Industrial Estate, Udupi, Karnataka",
+    "pin": "576101",
+    "gstin": "29AAKFO0007G1Z7",
+    "applicant_fee_category": "STARTUP"
+  }
+]

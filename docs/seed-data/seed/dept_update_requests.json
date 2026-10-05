@@ -1,0 +1,13 @@
+[
+  {
+    "id": "dur_0001",
+    "from_project_code_id": "pc_LIT5001",
+    "to_project_code_id": "pc_AR5001",
+    "requested_by_user_id": "u_lit",
+    "assigned_dept_leader_id": "u_pl1",
+    "status": "PENDING",
+    "request_message": "Need confirmation of hearing date and claim amendments filed before 12-Oct court date.",
+    "response_notes": null,
+    "created_at": "2026-10-03T12:00:00+05:30"
+  }
+]

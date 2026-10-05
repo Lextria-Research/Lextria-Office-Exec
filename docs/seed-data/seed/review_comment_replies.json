@@ -1,0 +1,44 @@
+[
+  {
+    "id": "rcr_0001",
+    "review_comment_id": "rc_0007",
+    "author_user_id": "u_dr1",
+    "created_at": "2026-09-23T15:00:00+05:30",
+    "text": "Should the calibration step be in claim 1 or a dependent claim? Inventor says it is optional in one variant."
+  },
+  {
+    "id": "rcr_0002",
+    "review_comment_id": "rc_0007",
+    "author_user_id": "u_ext",
+    "created_at": "2026-09-23T15:00:00+05:30",
+    "text": "Claim 1. The optional variant goes in a separate independent claim."
+  },
+  {
+    "id": "rcr_0003",
+    "review_comment_id": "rc_0007",
+    "author_user_id": "u_dr1",
+    "created_at": "2026-09-29T15:00:00+05:30",
+    "text": "Addressed in v2: claim 1 amended, new claim 12 for the variant."
+  },
+  {
+    "id": "rcr_0004",
+    "review_comment_id": "rc_0008",
+    "author_user_id": "u_dr1",
+    "created_at": "2026-09-29T15:00:00+05:30",
+    "text": "Addressed in v2: example with 30-day drift data added at para [0034]."
+  },
+  {
+    "id": "rcr_0005",
+    "review_comment_id": "rc_0010",
+    "author_user_id": "u_dr2",
+    "created_at": "2026-10-01T15:00:00+05:30",
+    "text": "Inventor has not shared the ratio yet. Asked by email on 1-Oct."
+  },
+  {
+    "id": "rcr_0006",
+    "review_comment_id": "rc_0010",
+    "author_user_id": "u_pl1",
+    "created_at": "2026-10-01T15:00:00+05:30",
+    "text": "Do not resubmit without it. Escalate to SPOC if no reply by 3-Oct."
+  }
+]

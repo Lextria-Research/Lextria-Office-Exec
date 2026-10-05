@@ -1,0 +1,34 @@
+[
+  {
+    "task_type": "CS",
+    "points": 5
+  },
+  {
+    "task_type": "PS",
+    "points": 2
+  },
+  {
+    "task_type": "FER_RESPONSE",
+    "points": 4
+  },
+  {
+    "task_type": "WRITTEN_SUBMISSION",
+    "points": 3
+  },
+  {
+    "task_type": "FORM_FILING",
+    "points": 1
+  },
+  {
+    "task_type": "TM_REPLY",
+    "points": 2
+  },
+  {
+    "task_type": "CR_FILING",
+    "points": 1
+  },
+  {
+    "task_type": "REVIEW",
+    "points": 1
+  }
+]

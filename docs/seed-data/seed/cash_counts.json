@@ -1,0 +1,14 @@
+[
+  {
+    "id": "cc_0001",
+    "count_date": "2026-10-03",
+    "counted_by": "u_oe",
+    "physical_cash": 942,
+    "book_balance": 962,
+    "variance": -20,
+    "note": "₹20 short — likely xerox not entered",
+    "finance_signoff_by": "u_fl",
+    "finance_signoff_at": "2026-10-03T18:00:00+05:30",
+    "finance_note": "Accepted; add xerox entry going forward"
+  }
+]

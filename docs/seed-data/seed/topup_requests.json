@@ -1,0 +1,24 @@
+[
+  {
+    "id": "tu_0001",
+    "amount": 1000,
+    "reason": "Balance below threshold before CR batch",
+    "requested_by": "u_oe",
+    "requested_at": "2026-09-30T16:00:00+05:30",
+    "status": "HANDED_OVER",
+    "approved_by": "u_fl",
+    "approved_at": "2026-10-01T10:00:00+05:30",
+    "handed_over_at": "2026-10-01T11:00:00+05:30"
+  },
+  {
+    "id": "tu_0002",
+    "amount": 1500,
+    "reason": "Week of 5-Oct: notary for 14 copyright docs + post",
+    "requested_by": "u_oe",
+    "requested_at": "2026-10-05T09:15:00+05:30",
+    "status": "REQUESTED",
+    "approved_by": null,
+    "approved_at": null,
+    "handed_over_at": null
+  }
+]

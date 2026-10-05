@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ra_0001",
+    "claim_id": "rmb_0006",
+    "project_code_id": "pc_KVU03",
+    "amount": 350
+  },
+  {
+    "id": "ra_0002",
+    "claim_id": "rmb_0007",
+    "project_code_id": "pc_LIT5001",
+    "amount": 1240
+  },
+  {
+    "id": "ra_0003",
+    "claim_id": "rmb_0008",
+    "project_code_id": "pc_LIT5001",
+    "amount": 500
+  },
+  {
+    "id": "ra_0004",
+    "claim_id": "rmb_0009",
+    "project_code_id": "pc_LIT5001",
+    "amount": 420
+  },
+  {
+    "id": "ra_0005",
+    "claim_id": "rmb_0010",
+    "project_code_id": "pc_AR5004",
+    "amount": 120
+  }
+]

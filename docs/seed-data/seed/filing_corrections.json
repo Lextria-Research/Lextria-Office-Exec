@@ -1,0 +1,101 @@
+[
+  {
+    "id": "fc_0001",
+    "filing_job_id": "fj_0001",
+    "category": "INVENTOR_DETAILS",
+    "description": "Inventor order in Form 1 differs from IDF",
+    "attributed_to": "u_pa1",
+    "raised_by": "u_pa2",
+    "raised_at": "2026-10-03T15:00:00+05:30",
+    "resolved_at": null,
+    "screenshot_document_id": null
+  },
+  {
+    "id": "fc_0002",
+    "filing_job_id": "fj_0002",
+    "category": "APPLICANT_ADDRESS",
+    "description": "PIN code missing in applicant address on Form 1",
+    "attributed_to": "u_pa2",
+    "raised_by": "u_ops",
+    "raised_at": "2026-10-04T15:00:00+05:30",
+    "resolved_at": "2026-10-04T18:00:00+05:30",
+    "screenshot_document_id": null
+  },
+  {
+    "id": "fc_0003",
+    "filing_job_id": "fj_0002",
+    "category": "WRONG_DOCUMENT",
+    "description": "Draft v1 attached instead of final v2",
+    "attributed_to": "u_pa2",
+    "raised_by": "u_ops",
+    "raised_at": "2026-10-04T15:00:00+05:30",
+    "resolved_at": "2026-10-04T18:00:00+05:30",
+    "screenshot_document_id": null
+  },
+  {
+    "id": "fc_0004",
+    "filing_job_id": "fj_0006",
+    "category": "TITLE",
+    "description": "Title mismatch between Form 1 and spec",
+    "attributed_to": "u_pa2",
+    "raised_by": "u_pa1",
+    "raised_at": "2026-09-24T15:00:00+05:30",
+    "resolved_at": "2026-09-24T18:00:00+05:30",
+    "screenshot_document_id": null
+  },
+  {
+    "id": "fc_0005",
+    "filing_job_id": "fj_0006",
+    "category": "DUPLICATE_UPLOAD",
+    "description": "Drawings uploaded twice",
+    "attributed_to": "u_pa2",
+    "raised_by": "u_pa1",
+    "raised_at": "2026-09-24T15:00:00+05:30",
+    "resolved_at": "2026-09-24T18:00:00+05:30",
+    "screenshot_document_id": null
+  },
+  {
+    "id": "fc_0006",
+    "filing_job_id": "fj_0007",
+    "category": "INVENTOR_DETAILS",
+    "description": "Inventor 2 surname spelling",
+    "attributed_to": "u_pa1",
+    "raised_by": "u_ph",
+    "raised_at": "2025-11-19T15:00:00+05:30",
+    "resolved_at": "2025-11-19T18:00:00+05:30",
+    "screenshot_document_id": null
+  },
+  {
+    "id": "fc_0007",
+    "filing_job_id": "fj_0003",
+    "category": "FEE_CATEGORY",
+    "description": "Fee category initially set to OTHERS",
+    "attributed_to": "u_int1",
+    "raised_by": "u_pa1",
+    "raised_at": "2026-10-02T15:00:00+05:30",
+    "resolved_at": "2026-10-02T18:00:00+05:30",
+    "screenshot_document_id": null
+  },
+  {
+    "id": "fc_0008",
+    "filing_job_id": "fj_0006",
+    "category": "APPLICANT_ADDRESS",
+    "description": "Applicant address line 2 missing",
+    "attributed_to": "u_pa2",
+    "raised_by": "u_pa1",
+    "raised_at": "2026-09-10T15:00:00+05:30",
+    "resolved_at": "2026-09-10T18:00:00+05:30",
+    "screenshot_document_id": null
+  },
+  {
+    "id": "fc_0009",
+    "filing_job_id": "fj_0007",
+    "category": "MISSING_DOCUMENT",
+    "description": "Form 3 not attached",
+    "attributed_to": "u_pa1",
+    "raised_by": "u_ph",
+    "raised_at": "2025-11-19T15:00:00+05:30",
+    "resolved_at": "2025-11-19T18:00:00+05:30",
+    "screenshot_document_id": null
+  }
+]

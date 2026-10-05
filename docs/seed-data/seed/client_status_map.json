@@ -1,0 +1,212 @@
+[
+  {
+    "domain": "PATENT",
+    "internal_status": "PS_DRAFTING",
+    "client_label": "Provisional specification being drafted"
+  },
+  {
+    "domain": "PATENT",
+    "internal_status": "PS_FILED",
+    "client_label": "Provisional application filed"
+  },
+  {
+    "domain": "PATENT",
+    "internal_status": "CS_DRAFTING",
+    "client_label": "Complete specification being drafted"
+  },
+  {
+    "domain": "PATENT",
+    "internal_status": "CS_FILED",
+    "client_label": "Complete specification filed"
+  },
+  {
+    "domain": "PATENT",
+    "internal_status": "PUBLISHED",
+    "client_label": "Application published"
+  },
+  {
+    "domain": "PATENT",
+    "internal_status": "RFE_FILED",
+    "client_label": "Examination requested"
+  },
+  {
+    "domain": "PATENT",
+    "internal_status": "FER_ISSUED",
+    "client_label": "Examination report received"
+  },
+  {
+    "domain": "PATENT",
+    "internal_status": "FER_RESPONSE_DRAFTING",
+    "client_label": "Examination report received — response being prepared"
+  },
+  {
+    "domain": "PATENT",
+    "internal_status": "FER_REPLY_FILED",
+    "client_label": "Response to examination report filed"
+  },
+  {
+    "domain": "PATENT",
+    "internal_status": "HEARING_SCHEDULED",
+    "client_label": "Hearing scheduled at the Patent Office"
+  },
+  {
+    "domain": "PATENT",
+    "internal_status": "GRANTED",
+    "client_label": "Patent granted"
+  },
+  {
+    "domain": "PATENT",
+    "internal_status": "LAPSED",
+    "client_label": "Patent lapsed"
+  },
+  {
+    "domain": "FILING_JOB",
+    "internal_status": "QUEUED",
+    "client_label": "Filing in preparation"
+  },
+  {
+    "domain": "FILING_JOB",
+    "internal_status": "PREPARED",
+    "client_label": "Filing in preparation"
+  },
+  {
+    "domain": "FILING_JOB",
+    "internal_status": "IN_CHECK",
+    "client_label": "Filing in preparation"
+  },
+  {
+    "domain": "FILING_JOB",
+    "internal_status": "CORRECTIONS_REQUIRED",
+    "client_label": "Filing in preparation"
+  },
+  {
+    "domain": "FILING_JOB",
+    "internal_status": "ON_HOLD",
+    "client_label": "Awaiting documents"
+  },
+  {
+    "domain": "FILING_JOB",
+    "internal_status": "CLEARED_FOR_ESIGN",
+    "client_label": "Filing in progress"
+  },
+  {
+    "domain": "FILING_JOB",
+    "internal_status": "E_SIGNED",
+    "client_label": "Filing in progress"
+  },
+  {
+    "domain": "FILING_JOB",
+    "internal_status": "PAYMENT_PENDING",
+    "client_label": "Filing in progress"
+  },
+  {
+    "domain": "FILING_JOB",
+    "internal_status": "PAID",
+    "client_label": "Filing in progress"
+  },
+  {
+    "domain": "FILING_JOB",
+    "internal_status": "ACK_UPLOADED",
+    "client_label": "Filed"
+  },
+  {
+    "domain": "FILING_JOB",
+    "internal_status": "CLOSED",
+    "client_label": "Filed"
+  },
+  {
+    "domain": "TRADEMARK",
+    "internal_status": "OBJECTED",
+    "client_label": "Examination report received — reply being prepared"
+  },
+  {
+    "domain": "TRADEMARK",
+    "internal_status": "OPPOSED",
+    "client_label": "Opposition filed by third party — we are responding"
+  },
+  {
+    "domain": "TRADEMARK",
+    "internal_status": "REGISTERED",
+    "client_label": "Registered"
+  },
+  {
+    "domain": "TRADEMARK",
+    "internal_status": "AWAITING_CLIENT_APPROVAL",
+    "client_label": "Awaiting your approval"
+  },
+  {
+    "domain": "COPYRIGHT",
+    "internal_status": "FILED",
+    "client_label": "Application filed"
+  },
+  {
+    "domain": "COPYRIGHT",
+    "internal_status": "SCRUTINY",
+    "client_label": "Under scrutiny at the Copyright Office"
+  },
+  {
+    "domain": "COPYRIGHT",
+    "internal_status": "DISCREPANCY_RAISED",
+    "client_label": "Copyright Office raised a query — reply being prepared"
+  },
+  {
+    "domain": "COPYRIGHT",
+    "internal_status": "REGISTERED",
+    "client_label": "Registered"
+  },
+  {
+    "domain": "DESIGN",
+    "internal_status": "UNDER_EXAMINATION",
+    "client_label": "Under examination"
+  },
+  {
+    "domain": "DESIGN",
+    "internal_status": "REGISTERED",
+    "client_label": "Registered"
+  },
+  {
+    "domain": "LITIGATION",
+    "internal_status": "LEGAL_NOTICE_SERVED",
+    "client_label": "Legal notice served"
+  },
+  {
+    "domain": "LITIGATION",
+    "internal_status": "INTERIM_APPLICATION_ARGUMENTS",
+    "client_label": "Interim application listed for arguments"
+  },
+  {
+    "domain": "AGREEMENT",
+    "internal_status": "CLIENT_REVIEW",
+    "client_label": "Draft shared for your review"
+  },
+  {
+    "domain": "AGREEMENT",
+    "internal_status": "COUNTERPARTY_REVIEW",
+    "client_label": "With the other side for review"
+  },
+  {
+    "domain": "AGREEMENT",
+    "internal_status": "FINALIZED",
+    "client_label": "Finalised"
+  },
+  {
+    "domain": "APPROVAL",
+    "internal_status": "AWAITING",
+    "client_label": "Awaiting your approval"
+  },
+  {
+    "domain": "APPROVAL",
+    "internal_status": "APPROVED",
+    "client_label": "Approved by you"
+  },
+  {
+    "domain": "APPROVAL",
+    "internal_status": "APPROVED_WITH_CHANGES",
+    "client_label": "Approved by you with changes"
+  },
+  {
+    "domain": "APPROVAL",
+    "internal_status": "CHANGES_REQUESTED",
+    "client_label": "Changes requested by you"
+  }
+]

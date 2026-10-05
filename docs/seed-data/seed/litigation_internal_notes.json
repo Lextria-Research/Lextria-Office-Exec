@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ln_0001",
+    "project_code_id": "pc_LIT5001",
+    "author_user_id": "u_lit",
+    "created_at": "2026-09-30T18:00:00+05:30",
+    "client_visible": false,
+    "note": "INTERNAL: defendant's prior-art bundle is weak on claim 4; consider settlement range before 12-Oct. Do not share."
+  },
+  {
+    "id": "ln_0002",
+    "project_code_id": "pc_LIT5002",
+    "author_user_id": "u_lit",
+    "created_at": "2026-09-20T17:00:00+05:30",
+    "client_visible": false,
+    "note": "INTERNAL (ethical wall): evidence of first use from 2014 invoices; check authenticity before filing suit."
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "auth": {
+      "method": "PASSWORD_PLUS_OTP",
+      "otp_channels_allowed": [
+        "EMAIL",
+        "SMS"
+      ],
+      "otp_length": 6,
+      "otp_validity_minutes": 10,
+      "max_attempts": 5,
+      "lockout_minutes": 30,
+      "session_timeout_minutes": 30,
+      "remember_device_days": 0,
+      "sms_note": "SMS OTP in India requires DLT-registered sender ID and template before go-live; demo simulates OTP on screen"
+    },
+    "actions_enabled": {
+      "approve_drafts": false,
+      "upload_requested_documents": false,
+      "raise_query": false,
+      "form27_questionnaire": false
+    },
+    "note": "One login per client. Institutions manage who uses it internally. v1 is read-only."
+  }
+]

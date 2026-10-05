@@ -1,0 +1,200 @@
+[
+  {
+    "id": "dl_0001",
+    "project_code_id": "pc_TBI01",
+    "title": "Complete specification due (12 months from PS)",
+    "deadline_type": "STATUTORY",
+    "due_date": "2026-11-20",
+    "owner_user_id": "u_dr1",
+    "backup_user_id": "u_pl1",
+    "status": "OPEN",
+    "source": null
+  },
+  {
+    "id": "dl_0002",
+    "project_code_id": "pc_TBI02",
+    "title": "Internal: PS draft to client",
+    "deadline_type": "INTERNAL",
+    "due_date": "2026-10-09",
+    "owner_user_id": "u_dr2",
+    "backup_user_id": "u_pl1",
+    "status": "OPEN",
+    "source": null
+  },
+  {
+    "id": "dl_0003",
+    "project_code_id": "pc_TBI03",
+    "title": "FER response due",
+    "deadline_type": "STATUTORY",
+    "due_date": "2027-01-20",
+    "owner_user_id": "u_dr3",
+    "backup_user_id": "u_pl2",
+    "status": "OPEN",
+    "source": null
+  },
+  {
+    "id": "dl_0004",
+    "project_code_id": "pc_TBI04",
+    "title": "Internal: CS filing target",
+    "deadline_type": "INTERNAL",
+    "due_date": "2026-10-07",
+    "owner_user_id": "u_pa1",
+    "backup_user_id": "u_pa2",
+    "status": "OPEN",
+    "source": null
+  },
+  {
+    "id": "dl_0005",
+    "project_code_id": "pc_KVU01",
+    "title": "Form 18 (request for examination) — internal target",
+    "deadline_type": "INTERNAL",
+    "due_date": "2026-10-10",
+    "owner_user_id": "u_pa2",
+    "backup_user_id": "u_ph",
+    "status": "OPEN",
+    "source": null
+  },
+  {
+    "id": "dl_0006",
+    "project_code_id": "pc_KVU02",
+    "title": "Complete specification due (12 months from PS)",
+    "deadline_type": "STATUTORY",
+    "due_date": "2026-10-05",
+    "owner_user_id": "u_pa1",
+    "backup_user_id": "u_ph",
+    "status": "OPEN",
+    "source": null
+  },
+  {
+    "id": "dl_0007",
+    "project_code_id": "pc_KVU03",
+    "title": "Form 13 — address for service",
+    "deadline_type": "INTERNAL",
+    "due_date": "2026-10-20",
+    "owner_user_id": "u_pa2",
+    "backup_user_id": "u_pa1",
+    "status": "OPEN",
+    "source": null
+  },
+  {
+    "id": "dl_0008",
+    "project_code_id": "pc_AR5001",
+    "title": "Hearing (patent office)",
+    "deadline_type": "STATUTORY",
+    "due_date": "2026-10-14",
+    "owner_user_id": "u_pl1",
+    "backup_user_id": "u_sa1",
+    "status": "OPEN",
+    "source": null
+  },
+  {
+    "id": "dl_0009",
+    "project_code_id": "pc_AR5001",
+    "title": "Written submission due after hearing",
+    "deadline_type": "STATUTORY",
+    "due_date": "2026-10-29",
+    "owner_user_id": "u_dr2",
+    "backup_user_id": "u_pl1",
+    "status": "OPEN",
+    "source": "Calculated: 15 days post hearing — VERIFY"
+  },
+  {
+    "id": "dl_0010",
+    "project_code_id": "pc_AR5002",
+    "title": "Complete specification due",
+    "deadline_type": "STATUTORY",
+    "due_date": "2027-03-30",
+    "owner_user_id": "u_dr4",
+    "backup_user_id": "u_pl2",
+    "status": "OPEN",
+    "source": null
+  },
+  {
+    "id": "dl_0011",
+    "project_code_id": "pc_AR5004",
+    "title": "Renewal fee year 10",
+    "deadline_type": "STATUTORY",
+    "due_date": "2026-11-02",
+    "owner_user_id": "u_pa1",
+    "backup_user_id": "u_ph",
+    "status": "OPEN",
+    "source": null
+  },
+  {
+    "id": "dl_0012",
+    "project_code_id": "pc_AR5005",
+    "title": "Renewal fee year 11 — extension window ends",
+    "deadline_type": "STATUTORY",
+    "due_date": "2027-02-01",
+    "owner_user_id": "u_pa1",
+    "backup_user_id": "u_ph",
+    "status": "OPEN",
+    "source": null
+  },
+  {
+    "id": "dl_0013",
+    "project_code_id": "pc_TM5001",
+    "title": "Reply to TM examination report",
+    "deadline_type": "STATUTORY",
+    "due_date": "2026-10-28",
+    "owner_user_id": "u_sip",
+    "backup_user_id": "u_sl",
+    "status": "OPEN",
+    "source": null
+  },
+  {
+    "id": "dl_0014",
+    "project_code_id": "pc_TM5002",
+    "title": "Counter-statement in opposition",
+    "deadline_type": "STATUTORY",
+    "due_date": "2026-11-02",
+    "owner_user_id": "u_sl",
+    "backup_user_id": "u_sip",
+    "status": "OPEN",
+    "source": null
+  },
+  {
+    "id": "dl_0015",
+    "project_code_id": "pc_CR5005",
+    "title": "Reply to copyright discrepancy",
+    "deadline_type": "STATUTORY",
+    "due_date": "2026-10-30",
+    "owner_user_id": "u_sip",
+    "backup_user_id": "u_sl",
+    "status": "OPEN",
+    "source": null
+  },
+  {
+    "id": "dl_0016",
+    "project_code_id": "pc_LIT5001",
+    "title": "Hearing — I.A. arguments",
+    "deadline_type": "STATUTORY",
+    "due_date": "2026-10-12",
+    "owner_user_id": "u_lit",
+    "backup_user_id": "u_sa1",
+    "status": "OPEN",
+    "source": null
+  },
+  {
+    "id": "dl_0017",
+    "project_code_id": "pc_LIT5002",
+    "title": "Reply period to legal notice ends",
+    "deadline_type": "INTERNAL",
+    "due_date": "2026-10-01",
+    "owner_user_id": "u_lit",
+    "backup_user_id": "u_int2",
+    "status": "DONE",
+    "source": null
+  },
+  {
+    "id": "dl_0018",
+    "project_code_id": "pc_MISC5003",
+    "title": "DP KYC statutory due (vendor)",
+    "deadline_type": "STATUTORY",
+    "due_date": "2026-09-30",
+    "owner_user_id": "u_fe2",
+    "backup_user_id": "u_fe1",
+    "status": "OPEN",
+    "source": null
+  }
+]

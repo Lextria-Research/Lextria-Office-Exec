@@ -1,0 +1,20 @@
+[
+  {
+    "id": "adv_0001",
+    "client_id": "cli_1007",
+    "received_date": "2026-09-25",
+    "amount": 50000,
+    "reference": "UTR-DEMO-7001",
+    "allocated_amount": 0,
+    "note": "Advance against AR5006 & TM5004 — not yet invoiced"
+  },
+  {
+    "id": "adv_0002",
+    "client_id": "cli_1003",
+    "received_date": "2026-09-14",
+    "amount": 10000,
+    "reference": "UTR-DEMO-3004",
+    "allocated_amount": 0,
+    "note": "Advance for hearing (AR5001 v2 quote)"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "f27_0001",
+    "project_code_id": "pc_AR5003",
+    "period_label": "FY 2025-26 to FY 2027-28",
+    "period_start": "2025-04-01",
+    "period_end": "2028-03-31",
+    "due_date": "2028-09-30",
+    "status": "UPCOMING",
+    "note": "Grant FY 2024-25; first period starts next FY. Rules in config — VERIFY."
+  },
+  {
+    "id": "f27_0002",
+    "project_code_id": "pc_AR5004",
+    "period_label": "Legacy (granted before 15-Mar-2024)",
+    "period_start": null,
+    "period_end": null,
+    "due_date": null,
+    "status": "SET_MANUALLY",
+    "note": "Transitional — confirm next period manually with the team"
+  },
+  {
+    "id": "f27_0003",
+    "project_code_id": "pc_AR5005",
+    "period_label": "Legacy (granted before 15-Mar-2024)",
+    "period_start": null,
+    "period_end": null,
+    "due_date": null,
+    "status": "SET_MANUALLY",
+    "note": "Transitional — confirm manually"
+  }
+]

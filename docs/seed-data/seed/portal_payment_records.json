@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ppr_0001",
+    "office": "COPYRIGHT",
+    "payment_date": "2026-10-03",
+    "reference": "CR-DEMO-26100306",
+    "amount": 500,
+    "identifier": "CR5006",
+    "entered_by": "u_pa2",
+    "match_status": "UNMATCHED",
+    "matched_request_id": null,
+    "resolution_note": null
+  },
+  {
+    "id": "ppr_0002",
+    "office": "COPYRIGHT",
+    "payment_date": "2026-10-03",
+    "reference": "CR-DEMO-26100307",
+    "amount": 500,
+    "identifier": "CR5007",
+    "entered_by": "u_pa2",
+    "match_status": "UNMATCHED",
+    "matched_request_id": null,
+    "resolution_note": null
+  },
+  {
+    "id": "ppr_0003",
+    "office": "COPYRIGHT",
+    "payment_date": "2026-10-03",
+    "reference": "CR-DEMO-26100308",
+    "amount": 500,
+    "identifier": "CR5008",
+    "entered_by": "u_pa2",
+    "match_status": "UNMATCHED",
+    "matched_request_id": null,
+    "resolution_note": null
+  },
+  {
+    "id": "ppr_0004",
+    "office": "COPYRIGHT",
+    "payment_date": "2026-10-03",
+    "reference": "CR-DEMO-26100309",
+    "amount": 500,
+    "identifier": "CR5009",
+    "entered_by": "u_pa2",
+    "match_status": "UNMATCHED",
+    "matched_request_id": null,
+    "resolution_note": null
+  },
+  {
+    "id": "ppr_0005",
+    "office": "COPYRIGHT",
+    "payment_date": "2026-10-03",
+    "reference": "CR-DEMO-261003010",
+    "amount": 500,
+    "identifier": "CR5010",
+    "entered_by": "u_pa2",
+    "match_status": "UNMATCHED",
+    "matched_request_id": null,
+    "resolution_note": null
+  },
+  {
+    "id": "ppr_0006",
+    "office": "PATENT",
+    "payment_date": "2026-10-03",
+    "reference": "CBR-DEMO-26100311",
+    "amount": 2500,
+    "identifier": "202541000203",
+    "entered_by": "u_pa2",
+    "match_status": "UNMATCHED",
+    "matched_request_id": null,
+    "resolution_note": null
+  }
+]

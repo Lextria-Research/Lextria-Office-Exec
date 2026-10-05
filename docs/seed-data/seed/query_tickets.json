@@ -1,0 +1,41 @@
+[
+  {
+    "id": "qt_0032",
+    "project_code_id": "pc_TBI04",
+    "subject": "Inventor order conflict — IDF vs signed Form 1",
+    "context": "Signed Form 1 lists Ms. Shruti Nayak first; IDF lists Mr. Kiran Bhandary first. Filing blocked.",
+    "inventors_summary": "Mr. Kiran Bhandary; Ms. Shruti Nayak (TBI)",
+    "contact_details": "+91 00010 00003 / +91 00010 00002",
+    "raised_by": "u_pa2",
+    "assigned_to": "u_pl1",
+    "status": "OPEN",
+    "priority": "HIGH",
+    "created_at": "2026-10-03T16:30:00+05:30",
+    "messages": [
+      {
+        "by": "u_pa2",
+        "at": "2026-10-03T16:30:00+05:30",
+        "text": "Which order is correct?"
+      },
+      {
+        "by": "u_pl1",
+        "at": "2026-10-03T18:00:00+05:30",
+        "text": "Checking with Dr. Hegde tomorrow morning."
+      }
+    ]
+  },
+  {
+    "id": "qt_0033",
+    "project_code_id": "pc_KVU03",
+    "subject": "Form 26 not received from client",
+    "context": "Regd post sent 22-Sep still in transit.",
+    "inventors_summary": "Mr. Rohan D'Costa (KVU)",
+    "contact_details": "+91 00010 00005",
+    "raised_by": "u_pa2",
+    "assigned_to": "u_oe",
+    "status": "OPEN",
+    "priority": "NORMAL",
+    "created_at": "2026-10-04T11:00:00+05:30",
+    "messages": []
+  }
+]

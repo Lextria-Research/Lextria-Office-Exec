@@ -1,0 +1,158 @@
+[
+  {
+    "id": "ca_0001",
+    "cash_entry_id": "cash_0002",
+    "project_code_id": "pc_CR5001",
+    "amount": 47
+  },
+  {
+    "id": "ca_0002",
+    "cash_entry_id": "cash_0003",
+    "project_code_id": "pc_CR5002",
+    "amount": 47
+  },
+  {
+    "id": "ca_0003",
+    "cash_entry_id": "cash_0004",
+    "project_code_id": "pc_CR5003",
+    "amount": 47
+  },
+  {
+    "id": "ca_0004",
+    "cash_entry_id": "cash_0005",
+    "project_code_id": "pc_CR5004",
+    "amount": 47
+  },
+  {
+    "id": "ca_0005",
+    "cash_entry_id": "cash_0006",
+    "project_code_id": "pc_CR5005",
+    "amount": 47
+  },
+  {
+    "id": "ca_0006",
+    "cash_entry_id": "cash_0007",
+    "project_code_id": "pc_CR5006",
+    "amount": 50
+  },
+  {
+    "id": "ca_0007",
+    "cash_entry_id": "cash_0007",
+    "project_code_id": "pc_CR5007",
+    "amount": 50
+  },
+  {
+    "id": "ca_0008",
+    "cash_entry_id": "cash_0007",
+    "project_code_id": "pc_CR5008",
+    "amount": 50
+  },
+  {
+    "id": "ca_0009",
+    "cash_entry_id": "cash_0007",
+    "project_code_id": "pc_CR5009",
+    "amount": 50
+  },
+  {
+    "id": "ca_0010",
+    "cash_entry_id": "cash_0007",
+    "project_code_id": "pc_CR5010",
+    "amount": 50
+  },
+  {
+    "id": "ca_0011",
+    "cash_entry_id": "cash_0008",
+    "project_code_id": "pc_LIT5002",
+    "amount": 62
+  },
+  {
+    "id": "ca_0012",
+    "cash_entry_id": "cash_0009",
+    "project_code_id": "pc_AGR5001",
+    "amount": 100
+  },
+  {
+    "id": "ca_0013",
+    "cash_entry_id": "cash_0010",
+    "project_code_id": "pc_KVU03",
+    "amount": 52
+  },
+  {
+    "id": "ca_0014",
+    "cash_entry_id": "cash_0011",
+    "project_code_id": "pc_AR5006",
+    "amount": 47
+  },
+  {
+    "id": "ca_0015",
+    "cash_entry_id": "cash_0012",
+    "project_code_id": "pc_KVU01",
+    "amount": 60
+  },
+  {
+    "id": "ca_0016",
+    "cash_entry_id": "cash_0012",
+    "project_code_id": "pc_KVU02",
+    "amount": 60
+  },
+  {
+    "id": "ca_0017",
+    "cash_entry_id": "cash_0012",
+    "project_code_id": "pc_KVU03",
+    "amount": 60
+  },
+  {
+    "id": "ca_0018",
+    "cash_entry_id": "cash_0014",
+    "project_code_id": "pc_AR5006",
+    "amount": 24
+  },
+  {
+    "id": "ca_0019",
+    "cash_entry_id": "cash_0014",
+    "project_code_id": "pc_TM5004",
+    "amount": 23
+  },
+  {
+    "id": "ca_0020",
+    "cash_entry_id": "cash_0015",
+    "project_code_id": "pc_AR5004",
+    "amount": 80
+  },
+  {
+    "id": "ca_0021",
+    "cash_entry_id": "cash_0017",
+    "project_code_id": "pc_CR5006",
+    "amount": 47
+  },
+  {
+    "id": "ca_0022",
+    "cash_entry_id": "cash_0017",
+    "project_code_id": "pc_CR5007",
+    "amount": 47
+  },
+  {
+    "id": "ca_0023",
+    "cash_entry_id": "cash_0017",
+    "project_code_id": "pc_CR5008",
+    "amount": 47
+  },
+  {
+    "id": "ca_0024",
+    "cash_entry_id": "cash_0017",
+    "project_code_id": "pc_CR5009",
+    "amount": 47
+  },
+  {
+    "id": "ca_0025",
+    "cash_entry_id": "cash_0017",
+    "project_code_id": "pc_CR5010",
+    "amount": 47
+  },
+  {
+    "id": "ca_0026",
+    "cash_entry_id": "cash_0018",
+    "project_code_id": "pc_TBI04",
+    "amount": 60
+  }
+]

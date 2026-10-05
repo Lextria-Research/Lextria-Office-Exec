@@ -1,0 +1,37 @@
+[
+  {
+    "id": "rct_PS",
+    "doc_type": "PS",
+    "stages": [
+      "CO_LEAD_REVIEW",
+      "FINAL_APPROVAL"
+    ]
+  },
+  {
+    "id": "rct_CS",
+    "doc_type": "CS",
+    "stages": [
+      "CO_LEAD_REVIEW",
+      "EXTERNAL_REVIEW",
+      "FINAL_APPROVAL"
+    ]
+  },
+  {
+    "id": "rct_FER_RESPONSE",
+    "doc_type": "FER_RESPONSE",
+    "stages": [
+      "CO_LEAD_REVIEW",
+      "EXTERNAL_REVIEW",
+      "FINAL_APPROVAL"
+    ]
+  },
+  {
+    "id": "rct_WRITTEN_SUBMISSION",
+    "doc_type": "WRITTEN_SUBMISSION",
+    "stages": [
+      "CO_LEAD_REVIEW",
+      "EXTERNAL_REVIEW",
+      "FINAL_APPROVAL"
+    ]
+  }
+]

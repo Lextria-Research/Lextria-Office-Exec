@@ -1,0 +1,164 @@
+[
+  {
+    "id": "fcr_0001",
+    "filing_job_id": "fj_0001",
+    "item": "Applicant name/address/PIN matches master",
+    "passed": true,
+    "note": null,
+    "checked_by": "u_pa2",
+    "checked_at": "2026-10-03T16:00:00+05:30"
+  },
+  {
+    "id": "fcr_0002",
+    "filing_job_id": "fj_0002",
+    "item": "Applicant name/address/PIN matches master",
+    "passed": true,
+    "note": null,
+    "checked_by": "u_ops",
+    "checked_at": "2026-10-05T09:30:00+05:30"
+  },
+  {
+    "id": "fcr_0003",
+    "filing_job_id": "fj_0001",
+    "item": "Inventor names & order match master",
+    "passed": false,
+    "note": "IDF order differs from signed Form 1",
+    "checked_by": "u_pa2",
+    "checked_at": "2026-10-03T16:00:00+05:30"
+  },
+  {
+    "id": "fcr_0004",
+    "filing_job_id": "fj_0002",
+    "item": "Inventor names & order match master",
+    "passed": true,
+    "note": null,
+    "checked_by": "u_ops",
+    "checked_at": "2026-10-05T09:30:00+05:30"
+  },
+  {
+    "id": "fcr_0005",
+    "filing_job_id": "fj_0001",
+    "item": "Inventor nationality & residence",
+    "passed": true,
+    "note": null,
+    "checked_by": "u_pa2",
+    "checked_at": "2026-10-03T16:00:00+05:30"
+  },
+  {
+    "id": "fcr_0006",
+    "filing_job_id": "fj_0002",
+    "item": "Inventor nationality & residence",
+    "passed": true,
+    "note": null,
+    "checked_by": "u_ops",
+    "checked_at": "2026-10-05T09:30:00+05:30"
+  },
+  {
+    "id": "fcr_0007",
+    "filing_job_id": "fj_0001",
+    "item": "Title matches specification",
+    "passed": true,
+    "note": null,
+    "checked_by": "u_pa2",
+    "checked_at": "2026-10-03T16:00:00+05:30"
+  },
+  {
+    "id": "fcr_0008",
+    "filing_job_id": "fj_0002",
+    "item": "Title matches specification",
+    "passed": true,
+    "note": null,
+    "checked_by": "u_ops",
+    "checked_at": "2026-10-05T09:30:00+05:30"
+  },
+  {
+    "id": "fcr_0009",
+    "filing_job_id": "fj_0001",
+    "item": "Specification is the locked final version",
+    "passed": true,
+    "note": null,
+    "checked_by": "u_pa2",
+    "checked_at": "2026-10-03T16:00:00+05:30"
+  },
+  {
+    "id": "fcr_0010",
+    "filing_job_id": "fj_0002",
+    "item": "Specification is the locked final version",
+    "passed": true,
+    "note": null,
+    "checked_by": "u_ops",
+    "checked_at": "2026-10-05T09:30:00+05:30"
+  },
+  {
+    "id": "fcr_0011",
+    "filing_job_id": "fj_0001",
+    "item": "No duplicate upload",
+    "passed": true,
+    "note": null,
+    "checked_by": "u_pa2",
+    "checked_at": "2026-10-03T16:00:00+05:30"
+  },
+  {
+    "id": "fcr_0012",
+    "filing_job_id": "fj_0002",
+    "item": "No duplicate upload",
+    "passed": true,
+    "note": null,
+    "checked_by": "u_ops",
+    "checked_at": "2026-10-05T09:30:00+05:30"
+  },
+  {
+    "id": "fcr_0013",
+    "filing_job_id": "fj_0001",
+    "item": "Form 26 / POA status",
+    "passed": true,
+    "note": null,
+    "checked_by": "u_pa2",
+    "checked_at": "2026-10-03T16:00:00+05:30"
+  },
+  {
+    "id": "fcr_0014",
+    "filing_job_id": "fj_0002",
+    "item": "Form 26 / POA status",
+    "passed": true,
+    "note": null,
+    "checked_by": "u_ops",
+    "checked_at": "2026-10-05T09:30:00+05:30"
+  },
+  {
+    "id": "fcr_0015",
+    "filing_job_id": "fj_0001",
+    "item": "Fee category matches applicant type",
+    "passed": true,
+    "note": null,
+    "checked_by": "u_pa2",
+    "checked_at": "2026-10-03T16:00:00+05:30"
+  },
+  {
+    "id": "fcr_0016",
+    "filing_job_id": "fj_0002",
+    "item": "Fee category matches applicant type",
+    "passed": true,
+    "note": null,
+    "checked_by": "u_ops",
+    "checked_at": "2026-10-05T09:30:00+05:30"
+  },
+  {
+    "id": "fcr_0017",
+    "filing_job_id": "fj_0001",
+    "item": "Signed Form 1 hard copy received",
+    "passed": true,
+    "note": null,
+    "checked_by": "u_pa2",
+    "checked_at": "2026-10-03T16:00:00+05:30"
+  },
+  {
+    "id": "fcr_0018",
+    "filing_job_id": "fj_0002",
+    "item": "Signed Form 1 hard copy received",
+    "passed": true,
+    "note": null,
+    "checked_by": "u_ops",
+    "checked_at": "2026-10-05T09:30:00+05:30"
+  }
+]

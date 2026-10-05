@@ -1,0 +1,56 @@
+[
+  {
+    "payment_id": "pay_0001",
+    "target_type": "INVOICE",
+    "target_id": "inv_0002",
+    "amount": 47200
+  },
+  {
+    "payment_id": "pay_0002",
+    "target_type": "INVOICE",
+    "target_id": "inv_0001",
+    "amount": 22840
+  },
+  {
+    "payment_id": "pay_0003",
+    "target_type": "INVOICE",
+    "target_id": "inv_0004",
+    "amount": 21240
+  },
+  {
+    "payment_id": "pay_0004",
+    "target_type": "INVOICE",
+    "target_id": "inv_0003",
+    "amount": 20000
+  },
+  {
+    "payment_id": "pay_0005",
+    "target_type": "INVOICE",
+    "target_id": "inv_0006",
+    "amount": 70800
+  },
+  {
+    "payment_id": "pay_0006",
+    "target_type": "INVOICE",
+    "target_id": "inv_0008",
+    "amount": 7080
+  },
+  {
+    "payment_id": "pay_0007",
+    "target_type": "INVOICE",
+    "target_id": "inv_0009",
+    "amount": 70800
+  },
+  {
+    "payment_id": "pay_0008",
+    "target_type": "INVOICE",
+    "target_id": "inv_0011",
+    "amount": 9440
+  },
+  {
+    "payment_id": "pay_0009",
+    "target_type": "INVOICE",
+    "target_id": "inv_0007",
+    "amount": 29500
+  }
+]

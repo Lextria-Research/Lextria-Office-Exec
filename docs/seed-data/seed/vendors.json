@@ -1,0 +1,40 @@
+[
+  {
+    "id": "ven_01",
+    "name": "Ganga Compliance Associates (demo)",
+    "contact_person": "Mr. R. Menon",
+    "phone": "+91 00020 00001",
+    "email": "desk@ganga-demo.test",
+    "gstin": "29AAAFG0001H1Z1",
+    "pan": "AAAFG0001H",
+    "services": [
+      "ROC_ANNUAL_FILING",
+      "DIR_KYC",
+      "INCORPORATION"
+    ],
+    "rate_card": {
+      "ROC_ANNUAL_FILING": 6000,
+      "DIR_KYC": 800,
+      "INCORPORATION": 9000
+    },
+    "active": true
+  },
+  {
+    "id": "ven_02",
+    "name": "TaxEase GST Services (demo)",
+    "contact_person": "Ms. S. Rao",
+    "phone": "+91 00020 00002",
+    "email": "ops@taxease-demo.test",
+    "gstin": "29AAAFT0002J1Z2",
+    "pan": "AAAFT0002J",
+    "services": [
+      "GST_REGISTRATION",
+      "GST_AMENDMENT"
+    ],
+    "rate_card": {
+      "GST_REGISTRATION": 2500,
+      "GST_AMENDMENT": 1500
+    },
+    "active": true
+  }
+]

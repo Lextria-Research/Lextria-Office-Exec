@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ma_AGR5001",
+    "project_code_id": "pc_AGR5001",
+    "agreement_type": "PATENT_LICENCE",
+    "current_stage": "COUNTERPARTY_REVIEW",
+    "is_template": false,
+    "latest_version_sent_at": "2026-09-29T15:00:00+05:30"
+  },
+  {
+    "id": "ma_AGR5002",
+    "project_code_id": "pc_AGR5002",
+    "agreement_type": "NDA",
+    "current_stage": "FINALIZED",
+    "is_template": true,
+    "latest_version_sent_at": "2026-06-10T15:00:00+05:30"
+  },
+  {
+    "id": "ma_AGR5003",
+    "project_code_id": "pc_AGR5003",
+    "agreement_type": "IP_ASSIGNMENT",
+    "current_stage": "CLIENT_REVIEW",
+    "is_template": false,
+    "latest_version_sent_at": "2026-10-01T15:00:00+05:30"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "hr_0001",
+    "project_code_id": "pc_LIT5001",
+    "hearing_date": "2026-06-20",
+    "purpose": "First hearing / summons",
+    "outcome": "Summons issued; I.A. notice ordered",
+    "next_date": "2026-08-18",
+    "order_document_id": "doc_0016",
+    "client_visible": true
+  },
+  {
+    "id": "hr_0002",
+    "project_code_id": "pc_LIT5001",
+    "hearing_date": "2026-08-18",
+    "purpose": "Appearance of defendant",
+    "outcome": "Defendant appeared; time for written statement",
+    "next_date": "2026-10-12",
+    "order_document_id": "doc_0017",
+    "client_visible": true
+  },
+  {
+    "id": "hr_0003",
+    "project_code_id": "pc_LIT5001",
+    "hearing_date": "2026-10-12",
+    "purpose": "Arguments on I.A. for interim injunction",
+    "outcome": null,
+    "next_date": null,
+    "order_document_id": null,
+    "client_visible": true
+  }
+]

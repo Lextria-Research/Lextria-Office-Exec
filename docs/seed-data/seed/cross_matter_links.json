@@ -1,0 +1,20 @@
+[
+  {
+    "id": "cml_0001",
+    "source_project_code_id": "pc_LIT5001",
+    "target_project_code_id": "pc_AR5001",
+    "relation_type": "LITIGATION_ENFORCES_PATENT"
+  },
+  {
+    "id": "cml_0002",
+    "source_project_code_id": "pc_LIT5002",
+    "target_project_code_id": "pc_TM5003",
+    "relation_type": "LITIGATION_ENFORCES_TRADEMARK"
+  },
+  {
+    "id": "cml_0003",
+    "source_project_code_id": "pc_AGR5001",
+    "target_project_code_id": "pc_AR5003",
+    "relation_type": "AGREEMENT_LICENSES_PATENT"
+  }
+]

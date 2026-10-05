@@ -1,0 +1,51 @@
+[
+  {
+    "id": "fct_CS",
+    "filing_type": "CS",
+    "items": [
+      "Applicant name/address/PIN matches master",
+      "Inventor names & order match master",
+      "Inventor nationality & residence",
+      "Title matches specification",
+      "Specification is the locked final version",
+      "No duplicate upload",
+      "Form 26 / POA status",
+      "Fee category matches applicant type",
+      "Signed Form 1 hard copy received"
+    ]
+  },
+  {
+    "id": "fct_FORM_18",
+    "filing_type": "FORM_18",
+    "items": [
+      "Application number correct",
+      "Fee category matches applicant type",
+      "No duplicate request already filed"
+    ]
+  },
+  {
+    "id": "fct_FORM_13",
+    "filing_type": "FORM_13",
+    "items": [
+      "Correct field being amended",
+      "Supporting document attached",
+      "Dependency filings complete"
+    ]
+  },
+  {
+    "id": "fct_FORM_26",
+    "filing_type": "FORM_26",
+    "items": [
+      "POA signed by authorised signatory",
+      "Notarised copy uploaded"
+    ]
+  },
+  {
+    "id": "fct_TM_REPLY",
+    "filing_type": "TM_REPLY",
+    "items": [
+      "Mark & class match",
+      "Reply addresses every objection"
+    ]
+  }
+]

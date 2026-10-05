@@ -1,0 +1,82 @@
+[
+  {
+    "invoice_ref_id": "inv_0001",
+    "billing_stage_id": "bs_0001"
+  },
+  {
+    "invoice_ref_id": "inv_0002",
+    "billing_stage_id": "bs_0004"
+  },
+  {
+    "invoice_ref_id": "inv_0002",
+    "billing_stage_id": "bs_0005"
+  },
+  {
+    "invoice_ref_id": "inv_0003",
+    "billing_stage_id": "bs_0009"
+  },
+  {
+    "invoice_ref_id": "inv_0004",
+    "billing_stage_id": "bs_0012"
+  },
+  {
+    "invoice_ref_id": "inv_0005",
+    "billing_stage_id": "bs_0026"
+  },
+  {
+    "invoice_ref_id": "inv_0005",
+    "billing_stage_id": "bs_0027"
+  },
+  {
+    "invoice_ref_id": "inv_0005",
+    "billing_stage_id": "bs_0028"
+  },
+  {
+    "invoice_ref_id": "inv_0005",
+    "billing_stage_id": "bs_0029"
+  },
+  {
+    "invoice_ref_id": "inv_0005",
+    "billing_stage_id": "bs_0030"
+  },
+  {
+    "invoice_ref_id": "inv_0006",
+    "billing_stage_id": "bs_0015"
+  },
+  {
+    "invoice_ref_id": "inv_0006",
+    "billing_stage_id": "bs_0016"
+  },
+  {
+    "invoice_ref_id": "inv_0006",
+    "billing_stage_id": "bs_0017"
+  },
+  {
+    "invoice_ref_id": "inv_0007",
+    "billing_stage_id": "bs_0020"
+  },
+  {
+    "invoice_ref_id": "inv_0008",
+    "billing_stage_id": "bs_0024"
+  },
+  {
+    "invoice_ref_id": "inv_0009",
+    "billing_stage_id": "bs_0036"
+  },
+  {
+    "invoice_ref_id": "inv_0010",
+    "billing_stage_id": "bs_0039"
+  },
+  {
+    "invoice_ref_id": "inv_0011",
+    "billing_stage_id": "bs_0045"
+  },
+  {
+    "invoice_ref_id": "inv_0013",
+    "billing_stage_id": "bs_0041"
+  },
+  {
+    "invoice_ref_id": "inv_0013",
+    "billing_stage_id": "bs_0042"
+  }
+]

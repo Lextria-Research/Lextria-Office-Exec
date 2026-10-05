@@ -1,0 +1,44 @@
+[
+  {
+    "id": "rc_0001",
+    "client_id": "cli_1001",
+    "service_id": "SVC_PAT_PS_CS",
+    "prof_fee": 45000,
+    "valid_from": "2025-04-01"
+  },
+  {
+    "id": "rc_0002",
+    "client_id": "cli_1001",
+    "service_id": "SVC_PAT_CS",
+    "prof_fee": 40000,
+    "valid_from": "2025-04-01"
+  },
+  {
+    "id": "rc_0003",
+    "client_id": "cli_1001",
+    "service_id": "SVC_PAT_FER",
+    "prof_fee": 15000,
+    "valid_from": "2025-04-01"
+  },
+  {
+    "id": "rc_0004",
+    "client_id": "cli_1002",
+    "service_id": "SVC_PAT_PS_CS",
+    "prof_fee": 45000,
+    "valid_from": "2025-04-01"
+  },
+  {
+    "id": "rc_0005",
+    "client_id": "cli_1002",
+    "service_id": "SVC_PAT_CS",
+    "prof_fee": 40000,
+    "valid_from": "2025-04-01"
+  },
+  {
+    "id": "rc_0006",
+    "client_id": "cli_1002",
+    "service_id": "SVC_CR_FILE",
+    "prof_fee": 2500,
+    "valid_from": "2025-04-01"
+  }
+]

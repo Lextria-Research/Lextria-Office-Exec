@@ -1,0 +1,47 @@
+[
+  {
+    "demo_today": "2026-10-05",
+    "timezone": "Asia/Kolkata",
+    "currency": "INR",
+    "gst_rate_percent": 18,
+    "petty_cash_low_balance_threshold": 300,
+    "esign_reminder_after_days": 5,
+    "approval_reminder_days": [
+      3,
+      7
+    ],
+    "post_pending_followup_days": 7,
+    "invoice_mismatch_tolerance": 1,
+    "review_buffer_working_days": {
+      "FINAL_APPROVAL": 3,
+      "EXTERNAL_REVIEW": 7,
+      "CO_LEAD_REVIEW": 10
+    },
+    "review_sla_days": {
+      "CO_LEAD_REVIEW": 7,
+      "EXTERNAL_REVIEW": 10,
+      "FINAL_APPROVAL": 3
+    },
+    "stage_due_rule": "stage_due_date = min(assigned_at + review_sla_days[stage], statutory_deadline - review_buffer_working_days[stage])",
+    "renewal_reminder_days": [
+      90,
+      60,
+      30
+    ],
+    "review_score": {
+      "counted_return_reasons": [
+        "DRAFTER_QUALITY"
+      ],
+      "points_per_counted_return": 1.0,
+      "extra_points_per_comment": {
+        "CRITICAL": 1.0,
+        "MAJOR": 0.5,
+        "MINOR": 0.0
+      },
+      "window": "last 10 drafts with at least one decided review round",
+      "lower_is_better": true,
+      "note": "Illustrative weights — DEPT_ADMIN/SUPER_ADMIN can change. Returns tagged CLIENT_INPUT_CHANGE or REVIEWER_PREFERENCE are not counted."
+    },
+    "note": "All people, clients, addresses, phone numbers, application numbers and amounts are fictional. Domain lextria-demo.test is non-routable."
+  }
+]

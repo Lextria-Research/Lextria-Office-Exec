@@ -1,0 +1,105 @@
+[
+  {
+    "id": "drf_0001",
+    "project_code_id": "pc_TBI01",
+    "doc_type": "CS",
+    "drafter_user_id": "u_dr1",
+    "statutory_deadline": "2026-11-20",
+    "current_stage": "EXTERNAL_REVIEW",
+    "final_version_id": null,
+    "chain_stages": [
+      "CO_LEAD_REVIEW",
+      "EXTERNAL_REVIEW",
+      "FINAL_APPROVAL"
+    ],
+    "chain_override_reason": null
+  },
+  {
+    "id": "drf_0002",
+    "project_code_id": "pc_TBI02",
+    "doc_type": "PS",
+    "drafter_user_id": "u_dr2",
+    "statutory_deadline": "2026-10-09",
+    "current_stage": "DRAFTING",
+    "final_version_id": null,
+    "chain_stages": [
+      "CO_LEAD_REVIEW",
+      "FINAL_APPROVAL"
+    ],
+    "chain_override_reason": null
+  },
+  {
+    "id": "drf_0003",
+    "project_code_id": "pc_TBI03",
+    "doc_type": "FER_RESPONSE",
+    "drafter_user_id": "u_dr3",
+    "statutory_deadline": "2027-01-20",
+    "current_stage": "CO_LEAD_REVIEW",
+    "final_version_id": null,
+    "chain_stages": [
+      "CO_LEAD_REVIEW",
+      "FINAL_APPROVAL"
+    ],
+    "chain_override_reason": "Formal objections only (Sec 10(4) clarity) — external review not needed; approved by Patent Co-lead B"
+  },
+  {
+    "id": "drf_0004",
+    "project_code_id": "pc_TBI04",
+    "doc_type": "CS",
+    "drafter_user_id": "u_dr2",
+    "statutory_deadline": "2026-10-07",
+    "current_stage": "APPROVED_FINAL",
+    "final_version_id": "drv_0005",
+    "chain_stages": [
+      "CO_LEAD_REVIEW",
+      "EXTERNAL_REVIEW",
+      "FINAL_APPROVAL"
+    ],
+    "chain_override_reason": null
+  },
+  {
+    "id": "drf_0005",
+    "project_code_id": "pc_KVU02",
+    "doc_type": "CS",
+    "drafter_user_id": "u_dr3",
+    "statutory_deadline": "2026-10-05",
+    "current_stage": "APPROVED_FINAL",
+    "final_version_id": "drv_0007",
+    "chain_stages": [
+      "CO_LEAD_REVIEW",
+      "EXTERNAL_REVIEW",
+      "FINAL_APPROVAL"
+    ],
+    "chain_override_reason": null
+  },
+  {
+    "id": "drf_0006",
+    "project_code_id": "pc_KVU01",
+    "doc_type": "CS",
+    "drafter_user_id": "u_dr1",
+    "statutory_deadline": "2026-12-15",
+    "current_stage": "APPROVED_FINAL",
+    "final_version_id": "drv_0009",
+    "chain_stages": [
+      "CO_LEAD_REVIEW",
+      "EXTERNAL_REVIEW",
+      "FINAL_APPROVAL"
+    ],
+    "chain_override_reason": null
+  },
+  {
+    "id": "drf_0007",
+    "project_code_id": "pc_AR5001",
+    "doc_type": "WRITTEN_SUBMISSION",
+    "drafter_user_id": "u_dr2",
+    "statutory_deadline": "2026-10-29",
+    "current_stage": "CO_LEAD_REVIEW",
+    "final_version_id": null,
+    "chain_stages": [
+      "CO_LEAD_REVIEW",
+      "EXTERNAL_REVIEW",
+      "FINAL_APPROVAL"
+    ],
+    "chain_override_reason": null
+  }
+]

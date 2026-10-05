@@ -1,0 +1,13 @@
+[
+  {
+    "id": "esc_0001",
+    "project_code_id": "pc_TBI04",
+    "client_id": "cli_1001",
+    "raised_by": "u_pl1",
+    "raised_at": "2026-10-05T09:00:00+05:30",
+    "status": "OPEN",
+    "issue_summary": "Inventor order dispute blocks CS filing (internal target 7-Oct)",
+    "tried": "Asked IPR cell; inventors disagree on order",
+    "decision_needed": "Founder to call institution IPR head and confirm order per institutional policy"
+  }
+]

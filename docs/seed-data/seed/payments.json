@@ -1,0 +1,92 @@
+[
+  {
+    "id": "pay_0001",
+    "client_id": "cli_1001",
+    "received_date": "2024-11-20",
+    "gross_amount": 47200,
+    "tds_amount": 4000,
+    "net_amount": 43200,
+    "mode": "NEFT",
+    "reference": "UTR-DEMO-1001"
+  },
+  {
+    "id": "pay_0002",
+    "client_id": "cli_1001",
+    "received_date": "2025-12-30",
+    "gross_amount": 22840,
+    "tds_amount": 1800,
+    "net_amount": 21040,
+    "mode": "NEFT",
+    "reference": "UTR-DEMO-1002"
+  },
+  {
+    "id": "pay_0003",
+    "client_id": "cli_1002",
+    "received_date": "2025-11-15",
+    "gross_amount": 21240,
+    "tds_amount": 2025,
+    "net_amount": 19215,
+    "mode": "NEFT",
+    "reference": "UTR-DEMO-2001"
+  },
+  {
+    "id": "pay_0004",
+    "client_id": "cli_1002",
+    "received_date": "2026-02-10",
+    "gross_amount": 20000,
+    "tds_amount": 1800,
+    "net_amount": 18200,
+    "mode": "NEFT",
+    "reference": "UTR-DEMO-2002"
+  },
+  {
+    "id": "pay_0005",
+    "client_id": "cli_1003",
+    "received_date": "2025-01-10",
+    "gross_amount": 70800,
+    "tds_amount": 6000,
+    "net_amount": 64800,
+    "mode": "NEFT",
+    "reference": "UTR-DEMO-3001"
+  },
+  {
+    "id": "pay_0006",
+    "client_id": "cli_1003",
+    "received_date": "2025-12-01",
+    "gross_amount": 7080,
+    "tds_amount": 600,
+    "net_amount": 6480,
+    "mode": "UPI",
+    "reference": "UTR-DEMO-3002"
+  },
+  {
+    "id": "pay_0007",
+    "client_id": "cli_1003",
+    "received_date": "2026-07-20",
+    "gross_amount": 70800,
+    "tds_amount": 6000,
+    "net_amount": 64800,
+    "mode": "NEFT",
+    "reference": "UTR-DEMO-3003"
+  },
+  {
+    "id": "pay_0008",
+    "client_id": "cli_1005",
+    "received_date": "2026-08-01",
+    "gross_amount": 9440,
+    "tds_amount": 800,
+    "net_amount": 8640,
+    "mode": "NEFT",
+    "reference": "UTR-DEMO-5001"
+  },
+  {
+    "id": "pay_0009",
+    "client_id": "cli_1004",
+    "received_date": "2026-04-10",
+    "gross_amount": 29500,
+    "tds_amount": 0,
+    "net_amount": 29500,
+    "mode": "UPI",
+    "reference": "UTR-DEMO-4001"
+  }
+]

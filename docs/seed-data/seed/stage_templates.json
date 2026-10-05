@@ -1,0 +1,220 @@
+[
+  {
+    "id": "TPL_PAT_PS_CS",
+    "name": "Pat Ps Cs",
+    "items": [
+      {
+        "stage_key": "PS_FILING",
+        "name": "Provisional drafting & filing",
+        "default_percent": 40,
+        "trigger_status_value": "PS_FILED",
+        "manual_completion": false
+      },
+      {
+        "stage_key": "CS_FILING",
+        "name": "Complete drafting & filing",
+        "default_percent": 45,
+        "trigger_status_value": "CS_FILED",
+        "manual_completion": false
+      },
+      {
+        "stage_key": "RFE",
+        "name": "Request for examination (Form 18)",
+        "default_percent": 15,
+        "trigger_status_value": "RFE_FILED",
+        "manual_completion": false
+      }
+    ]
+  },
+  {
+    "id": "TPL_PAT_CS",
+    "name": "Pat Cs",
+    "items": [
+      {
+        "stage_key": "CS_FILING",
+        "name": "Complete drafting & filing",
+        "default_percent": 85,
+        "trigger_status_value": "CS_FILED",
+        "manual_completion": false
+      },
+      {
+        "stage_key": "RFE",
+        "name": "Request for examination",
+        "default_percent": 15,
+        "trigger_status_value": "RFE_FILED",
+        "manual_completion": false
+      }
+    ]
+  },
+  {
+    "id": "TPL_PAT_PS",
+    "name": "Pat Ps",
+    "items": [
+      {
+        "stage_key": "PS_FILING",
+        "name": "Provisional drafting & filing",
+        "default_percent": 100,
+        "trigger_status_value": "PS_FILED",
+        "manual_completion": false
+      }
+    ]
+  },
+  {
+    "id": "TPL_PAT_FER",
+    "name": "Pat Fer",
+    "items": [
+      {
+        "stage_key": "FER_REPLY",
+        "name": "FER response filed",
+        "default_percent": 100,
+        "trigger_status_value": "FER_REPLY_FILED",
+        "manual_completion": false
+      }
+    ]
+  },
+  {
+    "id": "TPL_PAT_HEARING",
+    "name": "Pat Hearing",
+    "items": [
+      {
+        "stage_key": "HEARING",
+        "name": "Hearing attended",
+        "default_percent": 60,
+        "trigger_status_value": "HEARING_ATTENDED",
+        "manual_completion": false
+      },
+      {
+        "stage_key": "WS",
+        "name": "Written submission filed",
+        "default_percent": 40,
+        "trigger_status_value": "WS_FILED",
+        "manual_completion": false
+      }
+    ]
+  },
+  {
+    "id": "TPL_TM_FILE",
+    "name": "Tm File",
+    "items": [
+      {
+        "stage_key": "TM_FILING",
+        "name": "TM application filed",
+        "default_percent": 100,
+        "trigger_status_value": "TM_FILED",
+        "manual_completion": false
+      }
+    ]
+  },
+  {
+    "id": "TPL_CR_FILE",
+    "name": "Cr File",
+    "items": [
+      {
+        "stage_key": "CR_FILING",
+        "name": "Copyright application filed",
+        "default_percent": 100,
+        "trigger_status_value": "CR_FILED",
+        "manual_completion": false
+      }
+    ]
+  },
+  {
+    "id": "TPL_LIT_PHASE",
+    "name": "Lit Phase",
+    "items": [
+      {
+        "stage_key": "PLAINT",
+        "name": "Plaint & I.A. filed",
+        "default_percent": 40,
+        "trigger_status_value": "SUIT_FILED",
+        "manual_completion": false
+      },
+      {
+        "stage_key": "IA_ARGS",
+        "name": "Interim application argued",
+        "default_percent": 30,
+        "trigger_status_value": null,
+        "manual_completion": true
+      },
+      {
+        "stage_key": "TRIAL",
+        "name": "Trial phase",
+        "default_percent": 30,
+        "trigger_status_value": null,
+        "manual_completion": true
+      }
+    ]
+  },
+  {
+    "id": "TPL_LIT_NOTICE",
+    "name": "Lit Notice",
+    "items": [
+      {
+        "stage_key": "NOTICE",
+        "name": "Legal notice drafted & served",
+        "default_percent": 100,
+        "trigger_status_value": "LEGAL_NOTICE_SERVED",
+        "manual_completion": false
+      }
+    ]
+  },
+  {
+    "id": "TPL_PAT_RENEWAL",
+    "name": "Pat Renewal",
+    "items": [
+      {
+        "stage_key": "RENEWAL",
+        "name": "Renewal fee paid (per year)",
+        "default_percent": 100,
+        "trigger_status_value": "RENEWAL_PAID",
+        "manual_completion": false
+      }
+    ]
+  },
+  {
+    "id": "TPL_DS_FILE",
+    "name": "Ds File",
+    "items": [
+      {
+        "stage_key": "DS_FILING",
+        "name": "Design application filed",
+        "default_percent": 100,
+        "trigger_status_value": "DS_FILED",
+        "manual_completion": false
+      }
+    ]
+  },
+  {
+    "id": "TPL_TM_OPP",
+    "name": "Tm Opp",
+    "items": [
+      {
+        "stage_key": "COUNTER",
+        "name": "Counter-statement filed",
+        "default_percent": 100,
+        "trigger_status_value": "TM_COUNTER_FILED",
+        "manual_completion": false
+      }
+    ]
+  },
+  {
+    "id": "TPL_AGR",
+    "name": "Agr",
+    "items": [
+      {
+        "stage_key": "DRAFT_V1",
+        "name": "First draft delivered",
+        "default_percent": 50,
+        "trigger_status_value": "AGR_V1_SENT",
+        "manual_completion": false
+      },
+      {
+        "stage_key": "FINAL",
+        "name": "Agreement finalised",
+        "default_percent": 50,
+        "trigger_status_value": "AGR_FINALIZED",
+        "manual_completion": false
+      }
+    ]
+  }
+]

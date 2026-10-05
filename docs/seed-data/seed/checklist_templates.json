@@ -1,0 +1,158 @@
+[
+  {
+    "id": "ct_dues",
+    "name": "Daily dues review with drafters",
+    "department": "PARALEGAL",
+    "schedule": "DAILY",
+    "due_time": "10:30",
+    "owner_user_id": "u_ph",
+    "backup_user_id": "u_pa1",
+    "steps": [
+      "Open today's dues",
+      "Confirm status with each drafter",
+      "Update deadline notes"
+    ],
+    "evidence_required": "NOTE",
+    "escalation_chain": [
+      "DEPT_ADMIN",
+      "SUPER_ADMIN"
+    ],
+    "escalation_delay_minutes": 60
+  },
+  {
+    "id": "ct_eod",
+    "name": "End-of-day ACK reconciliation",
+    "department": "PARALEGAL",
+    "schedule": "DAILY",
+    "due_time": "18:30",
+    "owner_user_id": "u_ph",
+    "backup_user_id": "u_pa2",
+    "steps": [
+      "List filings due today",
+      "Confirm ACK uploaded or carry-over reason"
+    ],
+    "evidence_required": "NOTE",
+    "escalation_chain": [
+      "DEPT_ADMIN",
+      "SUPER_ADMIN"
+    ],
+    "escalation_delay_minutes": 60
+  },
+  {
+    "id": "ct_fee",
+    "name": "Daily govt fee portal reconciliation",
+    "department": "PARALEGAL",
+    "schedule": "DAILY",
+    "due_time": "17:30",
+    "owner_user_id": "u_pa2",
+    "backup_user_id": "u_pa1",
+    "steps": [
+      "Enter portal payment records",
+      "Resolve unmatched items"
+    ],
+    "evidence_required": "NOTE",
+    "escalation_chain": [
+      "DEPT_ADMIN",
+      "SUPER_ADMIN"
+    ],
+    "escalation_delay_minutes": 60
+  },
+  {
+    "id": "ct_prio",
+    "name": "Daily priority filings check",
+    "department": "PARALEGAL",
+    "schedule": "DAILY",
+    "due_time": "11:00",
+    "owner_user_id": "u_pa1",
+    "backup_user_id": "u_int1",
+    "steps": [
+      "Review Today board",
+      "Flag anything blocked"
+    ],
+    "evidence_required": "NONE",
+    "escalation_chain": [
+      "DEPT_ADMIN",
+      "SUPER_ADMIN"
+    ],
+    "escalation_delay_minutes": 60
+  },
+  {
+    "id": "ct_pub",
+    "name": "Friday journal publication check + inventor emails",
+    "department": "IP_PATENT",
+    "schedule": "WEEKLY:FRI",
+    "due_time": "16:00",
+    "owner_user_id": "u_dm",
+    "backup_user_id": "u_pa1",
+    "steps": [
+      "Search journal for client applications",
+      "Update publication dates",
+      "Send inventor status emails"
+    ],
+    "evidence_required": "FILE",
+    "escalation_chain": [
+      "DEPT_ADMIN",
+      "SUPER_ADMIN"
+    ],
+    "escalation_delay_minutes": 60
+  },
+  {
+    "id": "ct_ext",
+    "name": "Saturday external patents check",
+    "department": "IP_PATENT",
+    "schedule": "WEEKLY:SAT",
+    "due_time": "13:00",
+    "owner_user_id": "u_dm",
+    "backup_user_id": "u_pa2",
+    "steps": [
+      "Check external patents list",
+      "Record findings"
+    ],
+    "evidence_required": "NOTE",
+    "escalation_chain": [
+      "DEPT_ADMIN",
+      "SUPER_ADMIN"
+    ],
+    "escalation_delay_minutes": 60
+  },
+  {
+    "id": "ct_cash",
+    "name": "Weekly petty cash count",
+    "department": "OFFICE",
+    "schedule": "WEEKLY:SAT",
+    "due_time": "17:00",
+    "owner_user_id": "u_oe",
+    "backup_user_id": "u_ops",
+    "steps": [
+      "Count physical cash",
+      "Enter count",
+      "Request finance sign-off"
+    ],
+    "evidence_required": "NOTE",
+    "escalation_chain": [
+      "DEPT_ADMIN",
+      "SUPER_ADMIN"
+    ],
+    "escalation_delay_minutes": 60
+  },
+  {
+    "id": "ct_pg",
+    "name": "Monthly post-grant look-ahead",
+    "department": "IP_PATENT",
+    "schedule": "MONTHLY:1",
+    "due_time": "12:00",
+    "owner_user_id": "u_pa1",
+    "backup_user_id": "u_ph",
+    "steps": [
+      "Review renewals due in 90 days",
+      "Review Form 27 periods",
+      "Send client reminders"
+    ],
+    "evidence_required": "NOTE",
+    "escalation_chain": [
+      "DEPT_ADMIN",
+      "SUPER_ADMIN"
+    ],
+    "escalation_delay_minutes": 60
+  }
+]

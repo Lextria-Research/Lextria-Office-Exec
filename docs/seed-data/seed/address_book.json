@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ab_cr",
+    "name": "Registrar of Copyrights",
+    "organization": "Copyright Office",
+    "address": "Boudhik Sampada Bhawan, Plot 32, Sector 14, Dwarka, New Delhi",
+    "pin": "110078",
+    "phone": null,
+    "email": null,
+    "type": "GOVT_OFFICE"
+  },
+  {
+    "id": "ab_po",
+    "name": "Controller of Patents",
+    "organization": "Patent Office Chennai",
+    "address": "Intellectual Property Office Building, Guindy, Chennai",
+    "pin": "600032",
+    "phone": null,
+    "email": null,
+    "type": "GOVT_OFFICE"
+  },
+  {
+    "id": "ab_tbi",
+    "name": "IPR Cell",
+    "organization": "Tungabhadra Institute of Technology",
+    "address": "Survey No. 12, Riverside Campus, Hosapete",
+    "pin": "583201",
+    "phone": "+91 00000 10001",
+    "email": "ipr.cell@tbi-demo.test",
+    "type": "CLIENT"
+  },
+  {
+    "id": "ab_kvu",
+    "name": "IPR Office",
+    "organization": "Kaveri Vidya University",
+    "address": "University Road, Srirangapatna",
+    "pin": "571438",
+    "phone": "+91 00000 10002",
+    "email": "ipr@kvu-demo.test",
+    "type": "CLIENT"
+  },
+  {
+    "id": "ab_orb",
+    "name": "Ms. Ananya Pai",
+    "organization": "Orbitron Robotics LLP",
+    "address": "Unit 3, Old Port Industrial Estate, Udupi",
+    "pin": "576101",
+    "phone": "+91 00010 00013",
+    "email": "ananya@orbitron-demo.test",
+    "type": "CLIENT"
+  },
+  {
+    "id": "ab_sagar",
+    "name": "Proprietor",
+    "organization": "Sagar Masala Co. (opposite party)",
+    "address": "Shop 4, Market Road, Puttur",
+    "pin": "574201",
+    "phone": null,
+    "email": null,
+    "type": "OTHER"
+  },
+  {
+    "id": "ab_firm",
+    "name": "Managing Partner",
+    "organization": "Lextria Research (demo)",
+    "address": "1-344C, Demo Lane, Udupi",
+    "pin": "576102",
+    "phone": "+91 00000 00000",
+    "email": null,
+    "type": "OTHER"
+  },
+  {
+    "id": "ab_hem",
+    "name": "IP Desk",
+    "organization": "Hemadri Biotech Pvt Ltd",
+    "address": "Plot 44, Biotech Park Phase 2, Dharwad",
+    "pin": "580011",
+    "phone": "+91 00000 10006",
+    "email": "ip@hemadri-demo.test",
+    "type": "CLIENT"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "bill_required": true,
+    "bill_override_roles": [
+      "FINANCE_LEAD",
+      "SUPER_ADMIN"
+    ],
+    "claim_window_days": 60,
+    "approval_chain": [
+      "REPORTING_MANAGER",
+      "FINANCE"
+    ],
+    "manager_fallback": "Claimant with no reporting manager (founders) -> the other SUPER_ADMIN",
+    "payout_cycle": "WEEKLY_FRIDAY",
+    "note": "Every claim needs a bill. Reporting manager approves first, then Finance. Nobody approves their own claim, and the same person cannot give both approvals. Claim window is an illustrative setting. Payroll/tax treatment per CA."
+  }
+]

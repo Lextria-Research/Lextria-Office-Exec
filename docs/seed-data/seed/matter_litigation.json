@@ -1,0 +1,36 @@
+[
+  {
+    "id": "ml_LIT5001",
+    "project_code_id": "pc_LIT5001",
+    "cnr_number": "KABC010099992026",
+    "case_number": "COM.OS 1203/2026",
+    "court_bench": "Commercial Court (fictional), Bengaluru — Court Hall 3",
+    "cause_title": "Nimbus Agritech Pvt Ltd v. Greenfield Agro Tools Pvt Ltd",
+    "client_role": "PLAINTIFF",
+    "opposite_party": "Greenfield Agro Tools Pvt Ltd",
+    "current_stage": "INTERIM_APPLICATION_ARGUMENTS",
+    "next_hearing_date": "2026-10-12",
+    "next_purpose": "Arguments on I.A. for interim injunction",
+    "ethical_wall_enabled": false,
+    "ethical_wall_user_ids": []
+  },
+  {
+    "id": "ml_LIT5002",
+    "project_code_id": "pc_LIT5002",
+    "cnr_number": null,
+    "case_number": null,
+    "court_bench": "Pre-litigation",
+    "cause_title": "Coastal Spice Traders LLP v. Sagar Masala Co.",
+    "client_role": "PLAINTIFF",
+    "opposite_party": "Sagar Masala Co.",
+    "current_stage": "LEGAL_NOTICE_SERVED",
+    "next_hearing_date": null,
+    "next_purpose": "Await reply to legal notice (15 days)",
+    "ethical_wall_enabled": true,
+    "ethical_wall_user_ids": [
+      "u_lit",
+      "u_int2",
+      "u_sa1"
+    ]
+  }
+]

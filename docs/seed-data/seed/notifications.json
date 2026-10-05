@@ -1,0 +1,50 @@
+[
+  {
+    "id": "nt_0001",
+    "user_id": "u_fl",
+    "text": "Govt fee request for KVU01 Form 18 awaiting approval",
+    "link_entity": "govt_fee_requests",
+    "created_at": "2026-10-05T09:00:00+05:30",
+    "read": false
+  },
+  {
+    "id": "nt_0002",
+    "user_id": "u_ph",
+    "text": "End-of-day ACK reconciliation for 3-Oct was missed (escalated)",
+    "link_entity": "checklist_instances",
+    "created_at": "2026-10-05T09:00:00+05:30",
+    "read": false
+  },
+  {
+    "id": "nt_0003",
+    "user_id": "u_sa1",
+    "text": "Escalation: TBI04 inventor order dispute",
+    "link_entity": "escalations",
+    "created_at": "2026-10-05T09:00:00+05:30",
+    "read": false
+  },
+  {
+    "id": "nt_0004",
+    "user_id": "u_ph",
+    "text": "Paralegal A unavailable 5–7 Oct: 4 deadlines routed to backups",
+    "link_entity": "user_availability",
+    "created_at": "2026-10-05T09:00:00+05:30",
+    "read": false
+  },
+  {
+    "id": "nt_0005",
+    "user_id": "u_fl",
+    "text": "Top-up request ₹1,500 from Office Executive",
+    "link_entity": "topup_requests",
+    "created_at": "2026-10-05T09:00:00+05:30",
+    "read": false
+  },
+  {
+    "id": "nt_0006",
+    "user_id": "u_pl1",
+    "text": "Draft AR5001 written submission overdue at co-lead review",
+    "link_entity": "draft_documents",
+    "created_at": "2026-10-05T09:00:00+05:30",
+    "read": false
+  }
+]

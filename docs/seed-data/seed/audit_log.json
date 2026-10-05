@@ -1,0 +1,30 @@
+[
+  {
+    "id": "au_0001",
+    "actor_user_id": "u_sa1",
+    "action": "OVERRIDE_CLIENT_APPROVAL_GATE",
+    "entity": "approval_requests",
+    "entity_id": "apr_0002",
+    "at": "2026-10-05T09:00:00+05:30",
+    "before": {
+      "status": "AWAITING"
+    },
+    "after": {
+      "superadmin_override": "deemed approval"
+    }
+  },
+  {
+    "id": "au_0002",
+    "actor_user_id": "u_fl",
+    "action": "REVERSE_DISBURSEMENT",
+    "entity": "disbursements",
+    "entity_id": "dsb_0037",
+    "at": "2026-09-21T11:00:00+05:30",
+    "before": {
+      "ledger_posting_status": "AUTO_POSTED"
+    },
+    "after": {
+      "ledger_posting_status": "REVERSED"
+    }
+  }
+]

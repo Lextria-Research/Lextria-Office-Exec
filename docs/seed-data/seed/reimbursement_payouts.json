@@ -1,0 +1,14 @@
+[
+  {
+    "id": "rpo_0001",
+    "payout_date": "2026-10-02",
+    "method": "BANK_TRANSFER",
+    "reference": "UTR-DEMO-RMB-0002",
+    "claim_ids": [
+      "rmb_0001"
+    ],
+    "total": 780,
+    "paid_by": "u_fe1",
+    "note": "Weekly Friday payout"
+  }
+]
