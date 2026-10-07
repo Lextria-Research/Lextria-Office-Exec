@@ -29,6 +29,7 @@ import {
   dbAddAddressBookEntry,
   isLiveMode
 } from './supabaseSync';
+import { getStoredUser } from './auth';
 
 export function makeUuid(): string {
   if (typeof crypto !== 'undefined' && crypto.randomUUID) {
@@ -1131,6 +1132,9 @@ class MockStore {
       });
     }
 
+    const currentUser = getStoredUser();
+    const paidBy = (currentUser?.id && currentUser.id.includes('-')) ? currentUser.id : '5181fd8c-5ab0-49ca-a239-7777c4b9def9';
+
     const newEntry: CashEntry = {
       id: entryId,
       entry_no: nextEntryNo,
@@ -1141,7 +1145,7 @@ class MockStore {
       description: data.description,
       amount: data.amount,
       payment_mode: data.payment_mode,
-      paid_by: 'u_oe',
+      paid_by: paidBy,
       receipt_document_id: data.receipt_document_id || null,
       receipt_file_name: data.receipt_file_name || null,
       linked_dispatch_id: data.linked_dispatch_id || null,

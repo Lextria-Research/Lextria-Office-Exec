@@ -31,9 +31,11 @@ import {
   SEEDED_TEST_USERS,
   UserProfile,
   Role,
+  TEST_PASSWORDS,
 } from '../../lib/auth';
 import { RoleBanner } from '../common/RoleBanner';
 import { mockStore } from '../../lib/mockData';
+import { supabase, isSupabaseConfigured } from '../../lib/supabase';
 
 export const AppLayout: React.FC = () => {
   const navigate = useNavigate();
@@ -43,19 +45,55 @@ export const AppLayout: React.FC = () => {
   const [userMenuOpen, setUserMenuOpen] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
 
+  // Verify Supabase auth session on mount & subscribe to auth changes
+  React.useEffect(() => {
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      if (!session) {
+        signOutUser();
+        navigate('/login', { replace: true });
+      } else {
+        mockStore.initSupabaseSync();
+      }
+    });
+
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+      if (!session) {
+        signOutUser();
+        navigate('/login', { replace: true });
+      } else if (event === 'SIGNED_IN') {
+        mockStore.initSupabaseSync();
+      }
+    });
+
+    return () => subscription.unsubscribe();
+  }, [navigate]);
+
   const notifications = useSyncExternalStore(
     (cb) => mockStore.subscribe(cb),
     () => mockStore.getNotifications()
   );
   const unreadNotifications = notifications.filter((n) => !n.read_at);
 
-  const handleSwitchUser = (user: UserProfile) => {
+  const handleSwitchUser = async (user: UserProfile) => {
+    const pwd = TEST_PASSWORDS[user.email.toLowerCase()];
+    if (pwd && isSupabaseConfigured) {
+      const { error } = await supabase.auth.signInWithPassword({
+        email: user.email.toLowerCase(),
+        password: pwd,
+      });
+      if (error) {
+        console.error('Failed to switch user session:', error.message);
+        return;
+      }
+    }
     setStoredUser(user);
     setCurrentUser(user);
     setUserMenuOpen(false);
+    window.location.reload();
   };
 
-  const handleSignOut = () => {
+  const handleSignOut = async () => {
+    await supabase.auth.signOut();
     signOutUser();
     setUserMenuOpen(false);
     navigate('/login');

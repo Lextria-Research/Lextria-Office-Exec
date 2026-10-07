@@ -57,7 +57,7 @@ export const SEEDED_TEST_USERS: UserProfile[] = [
     active: true,
   },
   {
-    id: 'fl-uuid-finance-lead',
+    id: '32a7a433-31b7-4f3b-a1d9-922eb97e8cb8',
     email: 'fl@lextria-demo.test',
     display_name: 'Ramesh Patel (Finance Lead)',
     role: 'FINANCE',
@@ -75,7 +75,7 @@ export const SEEDED_TEST_USERS: UserProfile[] = [
     active: true,
   },
   {
-    id: 'pl1-uuid-dept-admin',
+    id: '0895af71-224e-463d-8139-c6b8665842f9',
     email: 'pl1@lextria-demo.test',
     display_name: 'Vikram Seth (Department Admin)',
     role: 'DEPT_ADMIN',
@@ -84,7 +84,7 @@ export const SEEDED_TEST_USERS: UserProfile[] = [
     active: true,
   },
   {
-    id: 'sa1-uuid-super-admin',
+    id: 'f974cd7d-6ed3-42c8-be73-16e8b6758754',
     email: 'sa1@lextria-demo.test',
     display_name: 'Ananya Sharma (Admin / Partner)',
     role: 'SUPER_ADMIN',
@@ -93,6 +93,15 @@ export const SEEDED_TEST_USERS: UserProfile[] = [
     active: true,
   },
 ];
+
+export const TEST_PASSWORDS: Record<string, string> = {
+  'oe@lextria-demo.test': 'Lx!aGza9rrUsNkkJCq6',
+  'fe1@lextria-demo.test': 'Lx!tHG8W+BKExqTQmuA',
+  'fl@lextria-demo.test': 'Lx!+r9Lw#cJrM2#Jtqj',
+  'pa1@lextria-demo.test': 'Lx!nnneSW6pLsKLns+*',
+  'pl1@lextria-demo.test': 'Lx!%eyUm2QdtXqtfh%u',
+  'sa1@lextria-demo.test': 'Lx!2A22dDQrY7KWjamc',
+};
 
 const LOCAL_STORAGE_USER_KEY = 'lextria_active_profile';
 const LOCAL_STORAGE_VIEW_AS_KEY = 'lextria_view_as_role';
@@ -104,8 +113,7 @@ export function getStoredUser(): UserProfile | null {
   } catch {
     // fallback
   }
-  // Default to Office Executive for initial testing
-  return SEEDED_TEST_USERS[0];
+  return null;
 }
 
 export function setStoredUser(user: UserProfile | null) {

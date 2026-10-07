@@ -92,7 +92,7 @@ export async function dbAddCashEntry(entry: CashEntry, allocations: CashAllocati
       description: entry.description,
       amount: entry.amount,
       payment_mode: entry.payment_mode,
-      paid_by: entry.paid_by || null,
+      paid_by: (entry.paid_by && entry.paid_by.length === 36) ? entry.paid_by : null,
       receipt_document_id: entry.receipt_document_id || null,
       linked_dispatch_id: entry.linked_dispatch_id || null,
       recoverable: entry.recoverable ?? entry.is_recoverable ?? null,

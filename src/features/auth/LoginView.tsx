@@ -2,19 +2,46 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { supabase, isSupabaseConfigured } from '../../lib/supabase';
-import { SEEDED_TEST_USERS, setStoredUser, UserProfile } from '../../lib/auth';
-import { Lock, Mail, Shield, AlertCircle, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { SEEDED_TEST_USERS, setStoredUser, UserProfile, TEST_PASSWORDS } from '../../lib/auth';
+import { Lock, Mail, AlertCircle, ArrowRight, CheckCircle2, ShieldCheck } from 'lucide-react';
 
 export const LoginView: React.FC = () => {
   const navigate = useNavigate();
   const [email, setEmail] = useState('oe@lextria-demo.test');
-  const [password, setPassword] = useState('');
+  const [password, setPassword] = useState(TEST_PASSWORDS['oe@lextria-demo.test'] || '');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const handleRoleSelect = (user: UserProfile) => {
+  const handleRoleSelect = async (user: UserProfile) => {
     setEmail(user.email);
+    const pwd = TEST_PASSWORDS[user.email.toLowerCase()] || '';
+    setPassword(pwd);
     setError(null);
+
+    // If test password exists and client configured, perform immediate sign-in for seamless 1-click test login
+    if (pwd && isSupabaseConfigured) {
+      setLoading(true);
+      try {
+        const { data, error: authErr } = await supabase.auth.signInWithPassword({
+          email: user.email.toLowerCase(),
+          password: pwd,
+        });
+
+        if (authErr) {
+          throw new Error(authErr.message);
+        }
+
+        if (data?.user) {
+          setStoredUser(user);
+          navigate('/');
+          return;
+        }
+      } catch (err: any) {
+        setError(err.message || 'Authentication failed');
+      } finally {
+        setLoading(false);
+      }
+    }
   };
 
   const handleLogin = async (e: React.FormEvent) => {
@@ -27,42 +54,43 @@ export const LoginView: React.FC = () => {
       (u) => u.email.toLowerCase() === normalizedEmail
     );
 
+    const pwd = password.trim() || TEST_PASSWORDS[normalizedEmail] || '';
+    if (!pwd) {
+      setError('Please provide a password.');
+      setLoading(false);
+      return;
+    }
+
     try {
-      if (isSupabaseConfigured) {
-        const { data, error: authErr } = await supabase.auth.signInWithPassword({
-          email: normalizedEmail,
-          password: password.trim(),
-        });
-
-        if (authErr) {
-          throw new Error(authErr.message);
-        }
-
-        if (data?.user) {
-          // If we have a profile in SEEDED_TEST_USERS or can fetch from core.profiles
-          const profile: UserProfile = matchedProfile || {
-            id: data.user.id,
-            email: data.user.email || normalizedEmail,
-            display_name: data.user.user_metadata?.display_name || normalizedEmail.split('@')[0],
-            role: data.user.user_metadata?.role || 'OFFICE_EXEC',
-            department: data.user.user_metadata?.department || 'OFFICE',
-            is_finance_lead: false,
-            active: true,
-          };
-          setStoredUser(profile);
-          navigate('/');
-          return;
-        }
+      if (!isSupabaseConfigured) {
+        throw new Error('Supabase client is not configured.');
       }
 
-      // Offline / Test fallback
-      if (matchedProfile) {
-        setStoredUser(matchedProfile);
+      const { data, error: authErr } = await supabase.auth.signInWithPassword({
+        email: normalizedEmail,
+        password: pwd,
+      });
+
+      if (authErr) {
+        throw new Error(authErr.message);
+      }
+
+      if (data?.user) {
+        const profile: UserProfile = matchedProfile || {
+          id: data.user.id,
+          email: data.user.email || normalizedEmail,
+          display_name: data.user.user_metadata?.display_name || normalizedEmail.split('@')[0],
+          role: data.user.user_metadata?.role || 'OFFICE_EXEC',
+          department: data.user.user_metadata?.department || 'OFFICE',
+          is_finance_lead: false,
+          active: true,
+        };
+        setStoredUser(profile);
         navigate('/');
         return;
       }
 
-      throw new Error('User not found. Please use one of the employee test roles.');
+      throw new Error('No user returned from authentication.');
     } catch (err: any) {
       setError(err.message || 'Authentication failed');
     } finally {
@@ -108,7 +136,11 @@ export const LoginView: React.FC = () => {
                   type="email"
                   required
                   value={email}
-                  onChange={(e) => setEmail(e.target.value)}
+                  onChange={(e) => {
+                    setEmail(e.target.value);
+                    const p = TEST_PASSWORDS[e.target.value.trim().toLowerCase()];
+                    if (p) setPassword(p);
+                  }}
                   placeholder="employee@lextria-demo.test"
                   className="w-full pl-9 pr-3 py-2 bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg text-sm text-slate-900 dark:text-slate-100 focus:outline-teal-600 font-mono"
                 />
@@ -140,7 +172,7 @@ export const LoginView: React.FC = () => {
               className="w-full flex items-center justify-center gap-2 py-2.5 px-4 border border-transparent rounded-lg shadow-sm text-sm font-medium text-white bg-teal-600 hover:bg-teal-700 focus:outline-hidden disabled:opacity-50 transition cursor-pointer"
             >
               {loading ? (
-                <span>Authenticating...</span>
+                <span>Authenticating with Supabase...</span>
               ) : (
                 <>
                   <span>Sign In</span>
@@ -152,26 +184,36 @@ export const LoginView: React.FC = () => {
 
           {/* Quick employee role picker */}
           <div className="mt-6 pt-5 border-t border-slate-100 dark:border-slate-800">
-            <div className="text-[11px] font-bold text-slate-500 uppercase tracking-wider mb-2 flex items-center gap-1.5">
-              <Shield className="w-3.5 h-3.5 text-teal-600" />
-              <span>Select Employee Role (Test Logins):</span>
+            <div className="text-[11px] font-bold text-slate-500 uppercase tracking-wider mb-2 flex items-center justify-center gap-1.5">
+              <ShieldCheck className="w-3.5 h-3.5 text-teal-600" />
+              <span>1-Click Test Logins (Auto-Sign In)</span>
             </div>
-            <div className="grid grid-cols-2 gap-1.5">
+            <div className="grid grid-cols-1 gap-2">
               {SEEDED_TEST_USERS.map((u) => {
                 const isSelected = email.toLowerCase() === u.email.toLowerCase();
                 return (
                   <button
                     key={u.id}
                     type="button"
+                    disabled={loading}
                     onClick={() => handleRoleSelect(u)}
-                    className={`text-left p-2 rounded-lg text-xs transition border ${
+                    className={`flex items-center justify-between p-2.5 rounded-lg border text-left transition cursor-pointer ${
                       isSelected
                         ? 'border-teal-500 bg-teal-50 dark:bg-teal-950/40 text-teal-900 dark:text-teal-200'
                         : 'border-slate-200 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-800/60 text-slate-700 dark:text-slate-300'
                     }`}
                   >
-                    <div className="font-semibold truncate">{u.display_name.split(' (')[0]}</div>
-                    <div className="text-[10px] text-slate-400 font-mono mt-0.5 truncate">{u.role}</div>
+                    <div>
+                      <div className="font-semibold text-xs">{u.display_name}</div>
+                      <div className="text-[10px] text-slate-400 font-mono mt-0.5">{u.email}</div>
+                    </div>
+                    {isSelected ? (
+                      <CheckCircle2 className="w-4 h-4 text-teal-600 shrink-0" />
+                    ) : (
+                      <span className="text-[10px] text-teal-600 dark:text-teal-400 font-medium hover:underline">
+                        Sign In →
+                      </span>
+                    )}
                   </button>
                 );
               })}
